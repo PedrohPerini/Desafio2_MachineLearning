@@ -1,0 +1,1003 @@
+Crédito,Status da conta corrente existente,Duração em meses,Histórico de crédito,Finalidade,Valor do crédito,Conta de poupança/títulos,Tempo de emprego atual,Taxa de prestação em porcentagem da renda disponível,Estado civil e sexo,Outros devedores/garantidores,Residência atual desde,Propriedade,Idade em anos,Outros planos de parcelamento,Habitação,Número de créditos existentes neste banco,Ocupação,Número de pessoas a quem deve prestar sustento,Telefone,Trabalhador estrangeiro
+Ruim Bom,Baixo negativo none estavel,continuous,Pagamento\ pelo\ banco Crítico Totalmente\ pago Em\ dia Atraso\ passado,Negócios Carro\ novo Carro\ usado Eletrodomésticos Educação Móveis/equipamentos outro Rádio/televisão Reparos Requalificação,continuous,Alto Baixo Medio Minimo none,4-to-7 7-+ good-to-4 Menos\ de\ 1 Desempregado,continuous,Mulher\ -\ divorciada/separada/casada Homem\ -\ divorciado/separado Homem\ -\ casado/viúvo Homem\ -\ solteiro,Co-requerente Fiador none,continuous,Carro/outro Imóvel Acordo\ de\ poupança/seguro\ de\ vida Desconhecido/nenhum,continuous,bank none stores,for-free Dono Aluguel,continuous,Alta\ qualificação Funcionário\ qualificado Residente\ não\ qualificado Não\ qualificado/não\ residente,1 2,Sem\ Telefone telefone\ registrado,Trabalhador\ Estrangeiro Trabalhador\ Local
+class favorable_class_value=Bom,,,,,,,,,"privileged_pa_values=['male-divorced/separated',\ 'male-married/widowed',\ 'male-single']",,,,,,,,,,,
+Bom,negativo,6,Crítico,Rádio/televisão,1169,none,7-+,4,Homem - solteiro,none,4,Imóvel,67,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,48,Em dia,Rádio/televisão,5951,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Imóvel,22,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Educação,2096,Minimo,4-to-7,2,Homem - solteiro,none,3,Imóvel,49,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,42,Em dia,Móveis/equipamentos,7882,Minimo,4-to-7,2,Homem - solteiro,Fiador,4,Acordo de poupança/seguro de vida,45,none,for-free,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Atraso passado,Carro novo,4870,Minimo,good-to-4,3,Homem - solteiro,none,4,Desconhecido/nenhum,53,none,for-free,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Educação,9055,none,good-to-4,2,Homem - solteiro,none,4,Desconhecido/nenhum,35,none,for-free,1,Residente não qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Móveis/equipamentos,2835,Medio,7-+,3,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,53,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,36,Em dia,Carro usado,6948,Minimo,good-to-4,2,Homem - solteiro,none,2,Carro/outro,35,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,3059,Alto,4-to-7,2,Homem - divorciado/separado,none,4,Imóvel,61,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,30,Crítico,Carro novo,5234,Minimo,Desempregado,4,Homem - casado/viúvo,none,2,Carro/outro,28,none,Dono,2,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Carro novo,1295,Minimo,Menos de 1,3,Mulher - divorciada/separada/casada,none,1,Carro/outro,25,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,48,Em dia,Negócios,4308,Minimo,Menos de 1,3,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,24,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Rádio/televisão,1567,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,1,Carro/outro,22,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Crítico,Carro novo,1199,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,60,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,15,Em dia,Carro novo,1403,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,28,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Rádio/televisão,1282,Baixo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,32,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,2424,none,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,53,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,30,Totalmente pago,Negócios,8072,none,Menos de 1,2,Homem - solteiro,none,3,Carro/outro,25,bank,Dono,3,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Carro usado,12579,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,2,Desconhecido/nenhum,44,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,3430,Medio,7-+,3,Homem - solteiro,none,2,Carro/outro,31,none,Dono,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,9,Crítico,Carro novo,2134,Minimo,good-to-4,4,Homem - solteiro,none,4,Carro/outro,48,none,Dono,3,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,6,Em dia,Rádio/televisão,2647,Medio,good-to-4,2,Homem - solteiro,none,3,Imóvel,44,none,Aluguel,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,10,Crítico,Carro novo,2241,Minimo,Menos de 1,1,Homem - solteiro,none,3,Imóvel,48,none,Aluguel,2,Residente não qualificado,2,Sem Telefone,Trabalhador Local
+Bom,Baixo,12,Crítico,Carro usado,1804,Baixo,Menos de 1,3,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,44,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,10,Crítico,Móveis/equipamentos,2069,none,good-to-4,2,Homem - casado/viúvo,none,1,Carro/outro,26,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,negativo,6,Em dia,Móveis/equipamentos,1374,Minimo,good-to-4,1,Homem - solteiro,none,2,Imóvel,36,bank,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Totalmente pago,Rádio/televisão,426,Minimo,7-+,4,Homem - casado/viúvo,none,4,Carro/outro,39,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,12,Pagamento pelo banco,Rádio/televisão,409,Alto,good-to-4,3,Mulher - divorciada/separada/casada,none,3,Imóvel,42,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,7,Em dia,Rádio/televisão,2415,Minimo,good-to-4,3,Homem - solteiro,Fiador,2,Imóvel,34,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,60,Atraso passado,Negócios,6836,Minimo,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,63,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Negócios,1913,Alto,Menos de 1,3,Homem - casado/viúvo,none,3,Imóvel,36,bank,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Móveis/equipamentos,4020,Minimo,good-to-4,2,Homem - solteiro,none,2,Carro/outro,27,stores,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Carro novo,5866,Baixo,good-to-4,2,Homem - solteiro,none,2,Carro/outro,30,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Negócios,1264,none,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,57,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,12,Em dia,Móveis/equipamentos,1474,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,33,bank,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,45,Crítico,Rádio/televisão,4746,Minimo,Menos de 1,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,25,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,48,Crítico,Educação,6110,Minimo,good-to-4,1,Homem - solteiro,none,3,Desconhecido/nenhum,31,bank,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,estavel,18,Em dia,Rádio/televisão,2100,Minimo,good-to-4,4,Homem - solteiro,Co-requerente,2,Imóvel,37,stores,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,10,Em dia,Eletrodomésticos,1225,Minimo,good-to-4,2,Homem - solteiro,none,2,Carro/outro,37,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Rádio/televisão,458,Minimo,good-to-4,4,Homem - solteiro,none,3,Imóvel,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,30,Em dia,Rádio/televisão,2333,Medio,7-+,4,Homem - solteiro,none,2,Carro/outro,30,bank,Dono,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Rádio/televisão,1158,Medio,good-to-4,3,Homem - divorciado/separado,none,1,Carro/outro,26,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Atraso passado,Reparos,6204,Minimo,good-to-4,2,Homem - solteiro,none,4,Imóvel,44,none,Dono,1,Residente não qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,30,Crítico,Carro usado,6187,Baixo,4-to-7,1,Homem - casado/viúvo,none,4,Carro/outro,24,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,48,Crítico,Carro usado,6143,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,58,stores,for-free,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,11,Crítico,Carro novo,1393,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,35,none,Dono,2,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Rádio/televisão,2299,Medio,7-+,4,Homem - solteiro,none,4,Carro/outro,39,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Em dia,Carro usado,1352,Medio,Desempregado,1,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,23,none,Aluguel,1,Não qualificado/não residente,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,11,Crítico,Carro novo,7228,Minimo,good-to-4,1,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,39,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,2073,Baixo,good-to-4,4,Mulher - divorciada/separada/casada,Co-requerente,2,Imóvel,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Atraso passado,Móveis/equipamentos,2333,none,Menos de 1,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,29,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,27,Atraso passado,Carro usado,5965,Minimo,7-+,1,Homem - solteiro,none,2,Carro/outro,30,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,1262,Minimo,good-to-4,3,Homem - solteiro,none,2,Carro/outro,25,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Carro usado,3378,none,good-to-4,2,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,31,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,36,Atraso passado,Carro novo,2225,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,57,bank,for-free,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Pagamento pelo banco,Carro novo,783,none,good-to-4,1,Homem - solteiro,Fiador,2,Imóvel,26,stores,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Rádio/televisão,6468,none,Desempregado,2,Homem - solteiro,none,1,Desconhecido/nenhum,52,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Rádio/televisão,9566,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Carro/outro,31,stores,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,18,Em dia,Carro novo,1961,Minimo,7-+,3,Mulher - divorciada/separada/casada,none,2,Carro/outro,23,none,Dono,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Crítico,Móveis/equipamentos,6229,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,Co-requerente,4,Desconhecido/nenhum,23,none,Aluguel,2,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Negócios,1391,Minimo,good-to-4,2,Homem - casado/viúvo,none,1,Imóvel,27,bank,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,15,Crítico,Rádio/televisão,1537,none,7-+,4,Homem - solteiro,Fiador,4,Imóvel,50,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,36,Totalmente pago,Negócios,1953,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,61,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,48,Totalmente pago,Negócios,14421,Minimo,good-to-4,2,Homem - solteiro,none,2,Carro/outro,25,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,3181,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,26,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,27,Em dia,Reparos,5190,none,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,48,none,Dono,4,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,2171,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,2,Carro/outro,29,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Carro novo,1007,Alto,good-to-4,4,Homem - casado/viúvo,none,1,Imóvel,22,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,36,Em dia,Educação,1819,Minimo,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,37,stores,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Rádio/televisão,2394,none,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,25,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Carro usado,8133,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,30,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,7,Crítico,Rádio/televisão,730,none,7-+,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,46,none,Aluguel,2,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,8,Crítico,outro,1164,Minimo,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,51,bank,for-free,2,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,42,Crítico,Negócios,5954,Minimo,4-to-7,2,Mulher - divorciada/separada/casada,none,1,Imóvel,41,bank,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Educação,1977,none,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,40,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Crítico,Carro usado,1526,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,66,none,for-free,2,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,42,Em dia,Rádio/televisão,3965,Minimo,Menos de 1,4,Homem - solteiro,none,3,Carro/outro,34,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,11,Atraso passado,Rádio/televisão,4771,Minimo,4-to-7,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,51,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,54,Totalmente pago,Carro usado,9436,none,good-to-4,2,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,39,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,30,Em dia,Móveis/equipamentos,3832,Minimo,Menos de 1,2,Homem - casado/viúvo,none,1,Acordo de poupança/seguro de vida,22,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,24,Em dia,Rádio/televisão,5943,none,Menos de 1,1,Mulher - divorciada/separada/casada,none,1,Carro/outro,44,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Rádio/televisão,1213,Medio,7-+,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,47,stores,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Negócios,1568,Baixo,good-to-4,3,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,24,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,outro,1755,Minimo,7-+,4,Mulher - divorciada/separada/casada,Fiador,4,Imóvel,58,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,10,Em dia,Rádio/televisão,2315,Minimo,7-+,3,Homem - solteiro,none,4,Imóvel,52,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Negócios,1412,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,Fiador,2,Imóvel,29,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Crítico,Móveis/equipamentos,1295,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,36,Em dia,Educação,12612,Baixo,good-to-4,1,Homem - solteiro,none,4,Desconhecido/nenhum,47,none,for-free,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,18,Em dia,Carro novo,2249,Baixo,4-to-7,4,Homem - solteiro,none,3,Carro/outro,30,none,Dono,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Totalmente pago,Reparos,1108,Minimo,4-to-7,4,Homem - solteiro,none,3,Imóvel,28,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,618,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,56,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Crítico,Carro usado,1409,Minimo,7-+,4,Homem - solteiro,none,3,Imóvel,54,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,12,Crítico,Rádio/televisão,797,none,7-+,4,Mulher - divorciada/separada/casada,none,3,Acordo de poupança/seguro de vida,33,bank,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,24,Crítico,Móveis/equipamentos,3617,none,7-+,4,Homem - solteiro,Co-requerente,4,Desconhecido/nenhum,20,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Carro novo,1318,Alto,7-+,4,Homem - solteiro,none,4,Imóvel,54,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,54,Totalmente pago,Negócios,15945,Minimo,Menos de 1,3,Homem - solteiro,none,4,Desconhecido/nenhum,58,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Educação,2012,none,4-to-7,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,61,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Negócios,2622,Baixo,good-to-4,4,Homem - solteiro,none,4,Carro/outro,34,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,36,Crítico,Rádio/televisão,2337,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,36,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,20,Atraso passado,Carro usado,7057,none,4-to-7,3,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,36,bank,Aluguel,2,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro novo,1469,Baixo,7-+,4,Homem - casado/viúvo,none,4,Imóvel,41,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,36,Em dia,Rádio/televisão,2323,Minimo,4-to-7,4,Homem - solteiro,none,4,Carro/outro,24,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Atraso passado,Rádio/televisão,932,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Imóvel,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Crítico,Móveis/equipamentos,1919,Minimo,4-to-7,4,Homem - solteiro,none,3,Carro/outro,35,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro usado,2445,none,Menos de 1,2,Homem - casado/viúvo,none,4,Carro/outro,26,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,24,Crítico,outro,11938,Minimo,good-to-4,2,Homem - solteiro,Co-requerente,3,Carro/outro,39,none,Dono,2,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,18,Pagamento pelo banco,Carro novo,6458,Minimo,7-+,2,Homem - solteiro,none,4,Desconhecido/nenhum,39,bank,Dono,2,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Carro novo,6078,Minimo,4-to-7,2,Homem - solteiro,none,2,Carro/outro,32,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Móveis/equipamentos,7721,none,Menos de 1,1,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,30,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Local
+Bom,Baixo,14,Em dia,Negócios,1410,Medio,7-+,1,Homem - casado/viúvo,none,2,Imóvel,35,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,6,Atraso passado,Negócios,1449,Baixo,7-+,1,Homem - divorciado/separado,none,2,Carro/outro,31,bank,Dono,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,15,Em dia,Educação,392,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,23,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Carro novo,6260,Minimo,4-to-7,3,Homem - solteiro,none,3,Imóvel,28,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,36,Crítico,Carro novo,7855,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Imóvel,25,stores,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Rádio/televisão,1680,Medio,7-+,3,Homem - casado/viúvo,none,1,Imóvel,35,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,48,Crítico,Rádio/televisão,3578,none,7-+,4,Homem - solteiro,none,1,Imóvel,47,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,42,Em dia,Rádio/televisão,7174,none,4-to-7,4,Mulher - divorciada/separada/casada,none,3,Carro/outro,30,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,10,Crítico,Móveis/equipamentos,2132,none,Menos de 1,2,Mulher - divorciada/separada/casada,Co-requerente,3,Imóvel,27,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Ruim,negativo,33,Crítico,Móveis/equipamentos,4281,Medio,good-to-4,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,23,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Crítico,Carro novo,2366,Medio,4-to-7,3,Homem - divorciado/separado,none,3,Carro/outro,36,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,21,Em dia,Rádio/televisão,1835,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Imóvel,25,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Carro usado,3868,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,41,none,Aluguel,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Móveis/equipamentos,1768,Minimo,good-to-4,3,Homem - solteiro,none,2,Imóvel,24,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,10,Crítico,Carro novo,781,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,63,none,for-free,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,18,Em dia,Móveis/equipamentos,1924,none,Menos de 1,4,Mulher - divorciada/separada/casada,none,3,Imóvel,27,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Crítico,Carro novo,2121,Minimo,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,30,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Rádio/televisão,701,Minimo,good-to-4,4,Homem - casado/viúvo,none,2,Imóvel,40,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Reparos,639,Minimo,good-to-4,4,Homem - solteiro,none,2,Carro/outro,30,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Crítico,Carro usado,1860,Minimo,Desempregado,4,Homem - solteiro,none,2,Carro/outro,34,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Crítico,Carro novo,3499,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,Co-requerente,2,Imóvel,29,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,48,Em dia,Carro novo,8487,none,4-to-7,1,Mulher - divorciada/separada/casada,none,2,Carro/outro,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Atraso passado,Educação,6887,Minimo,good-to-4,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,29,stores,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Móveis/equipamentos,2708,Minimo,Menos de 1,2,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,27,bank,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Móveis/equipamentos,1984,Minimo,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,47,bank,for-free,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,60,Em dia,Rádio/televisão,10144,Baixo,4-to-7,2,Mulher - divorciada/separada/casada,none,4,Imóvel,21,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,1240,none,7-+,4,Mulher - divorciada/separada/casada,none,2,Imóvel,38,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,27,Atraso passado,Carro usado,8613,Alto,good-to-4,2,Homem - solteiro,none,2,Carro/outro,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Rádio/televisão,766,Medio,good-to-4,4,Homem - solteiro,none,3,Imóvel,66,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,15,Crítico,Rádio/televisão,2728,none,4-to-7,4,Homem - solteiro,Fiador,2,Imóvel,35,bank,Dono,3,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,12,Em dia,Rádio/televisão,1881,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Carro/outro,44,none,Aluguel,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,6,Em dia,Carro novo,709,Alto,Menos de 1,2,Homem - casado/viúvo,none,2,Imóvel,27,none,Dono,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Local
+Bom,Baixo,36,Em dia,Rádio/televisão,4795,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Desconhecido/nenhum,30,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,27,Em dia,Rádio/televisão,3416,Minimo,good-to-4,3,Homem - solteiro,none,2,Carro/outro,27,none,Dono,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Móveis/equipamentos,2462,Minimo,good-to-4,2,Homem - solteiro,none,2,Carro/outro,22,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,21,Crítico,Móveis/equipamentos,2288,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,23,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,48,Pagamento pelo banco,Negócios,3566,Baixo,4-to-7,4,Homem - solteiro,none,2,Carro/outro,30,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Crítico,Carro novo,860,Minimo,7-+,1,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,39,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Carro novo,682,Baixo,4-to-7,4,Mulher - divorciada/separada/casada,none,3,Carro/outro,51,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,36,Crítico,Móveis/equipamentos,5371,Minimo,good-to-4,3,Homem - solteiro,Fiador,2,Acordo de poupança/seguro de vida,28,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,1582,Alto,7-+,4,Homem - solteiro,none,4,Carro/outro,46,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Rádio/televisão,1346,Baixo,7-+,2,Homem - solteiro,none,4,Desconhecido/nenhum,42,bank,for-free,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Rádio/televisão,1924,Minimo,good-to-4,1,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,38,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Local
+Bom,estavel,36,Em dia,Rádio/televisão,5848,Minimo,good-to-4,4,Homem - solteiro,none,1,Carro/outro,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Crítico,Carro usado,7758,Alto,7-+,2,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,29,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Atraso passado,Negócios,6967,Baixo,4-to-7,4,Homem - solteiro,none,4,Carro/outro,36,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Móveis/equipamentos,1282,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,20,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,9,Crítico,Reparos,1288,Baixo,7-+,3,Homem - solteiro,Fiador,4,Imóvel,48,none,Dono,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Local
+Bom,negativo,12,Pagamento pelo banco,Requalificação,339,Minimo,7-+,4,Homem - casado/viúvo,none,1,Carro/outro,45,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Carro novo,3512,Baixo,4-to-7,2,Homem - solteiro,none,3,Carro/outro,38,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Rádio/televisão,1898,none,good-to-4,1,Homem - solteiro,none,2,Imóvel,34,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,2872,Baixo,7-+,3,Homem - solteiro,none,4,Imóvel,36,none,Dono,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Carro novo,1055,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,30,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Eletrodomésticos,1262,Medio,4-to-7,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,36,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,10,Em dia,Carro novo,7308,Minimo,Desempregado,2,Homem - solteiro,none,4,Desconhecido/nenhum,70,bank,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Carro novo,909,Medio,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,36,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Móveis/equipamentos,2978,Medio,good-to-4,1,Homem - solteiro,none,2,Carro/outro,32,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Móveis/equipamentos,1131,Minimo,Desempregado,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,11,Em dia,Móveis/equipamentos,1577,Alto,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Imóvel,20,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Móveis/equipamentos,3972,Minimo,4-to-7,2,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,25,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,24,Crítico,Negócios,1935,Minimo,7-+,4,Homem - divorciado/separado,none,4,Imóvel,31,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,15,Totalmente pago,Carro novo,950,Minimo,7-+,4,Homem - solteiro,none,3,Carro/outro,33,none,Aluguel,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Móveis/equipamentos,763,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,1,Imóvel,26,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,24,Atraso passado,Móveis/equipamentos,2064,Minimo,Desempregado,3,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,34,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,8,Em dia,Rádio/televisão,1414,Minimo,good-to-4,4,Homem - solteiro,Fiador,2,Imóvel,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Ruim,negativo,21,Atraso passado,Educação,3414,Minimo,Menos de 1,2,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,26,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,30,Pagamento pelo banco,Carro usado,7485,none,Desempregado,4,Mulher - divorciada/separada/casada,none,1,Imóvel,53,bank,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,2577,Minimo,good-to-4,2,Homem - divorciado/separado,none,1,Carro/outro,42,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Crítico,Rádio/televisão,338,Medio,7-+,4,Homem - solteiro,none,4,Carro/outro,52,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,1963,Minimo,4-to-7,4,Homem - solteiro,none,2,Carro/outro,31,none,Aluguel,2,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,21,Crítico,Carro novo,571,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,65,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,36,Atraso passado,Negócios,9572,Minimo,Menos de 1,1,Homem - divorciado/separado,none,1,Carro/outro,28,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,36,Atraso passado,Negócios,4455,Minimo,good-to-4,2,Homem - divorciado/separado,none,2,Imóvel,30,stores,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,21,Pagamento pelo banco,Carro novo,1647,none,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,40,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Móveis/equipamentos,3777,Alto,good-to-4,4,Homem - solteiro,none,4,Imóvel,50,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,18,Crítico,Carro novo,884,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,36,bank,Dono,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Rádio/televisão,1360,Minimo,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,31,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,9,Pagamento pelo banco,Carro usado,5129,Minimo,7-+,2,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,74,bank,for-free,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,16,Crítico,Carro novo,1175,Minimo,Desempregado,2,Homem - solteiro,none,3,Carro/outro,68,none,for-free,3,Não qualificado/não residente,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Rádio/televisão,674,Baixo,4-to-7,4,Homem - casado/viúvo,none,1,Acordo de poupança/seguro de vida,20,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Totalmente pago,Móveis/equipamentos,3244,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,33,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,24,Em dia,Negócios,4591,Alto,good-to-4,2,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,54,none,Dono,3,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,48,Totalmente pago,Negócios,3844,Baixo,4-to-7,4,Homem - solteiro,none,4,Desconhecido/nenhum,34,none,for-free,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,27,Em dia,Negócios,3915,Minimo,good-to-4,4,Homem - solteiro,none,2,Carro/outro,36,none,Dono,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Rádio/televisão,2108,Minimo,4-to-7,2,Homem - casado/viúvo,none,2,Imóvel,29,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,45,Em dia,Rádio/televisão,3031,Baixo,good-to-4,4,Homem - solteiro,Fiador,4,Acordo de poupança/seguro de vida,21,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,9,Crítico,Educação,1501,Minimo,7-+,2,Mulher - divorciada/separada/casada,none,3,Carro/outro,34,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Rádio/televisão,1382,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,1,Carro/outro,28,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Móveis/equipamentos,951,Baixo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,27,bank,Aluguel,4,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Carro usado,2760,none,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,36,bank,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,18,Atraso passado,Móveis/equipamentos,4297,Minimo,7-+,4,Homem - divorciado/separado,none,3,Desconhecido/nenhum,40,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,9,Crítico,Educação,936,Medio,7-+,4,Homem - solteiro,none,2,Carro/outro,52,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Carro novo,1168,Minimo,good-to-4,4,Homem - casado/viúvo,none,3,Imóvel,27,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,27,Atraso passado,Negócios,5117,Minimo,4-to-7,3,Homem - solteiro,none,4,Carro/outro,26,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Requalificação,902,Minimo,4-to-7,4,Homem - casado/viúvo,none,4,Acordo de poupança/seguro de vida,21,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Carro novo,1495,Minimo,7-+,4,Homem - solteiro,none,1,Imóvel,38,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,30,Crítico,Carro usado,10623,Minimo,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,38,none,for-free,3,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Móveis/equipamentos,1935,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,43,none,Dono,3,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Crítico,Eletrodomésticos,1424,Minimo,4-to-7,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Negócios,6568,Minimo,good-to-4,2,Homem - casado/viúvo,none,2,Carro/outro,21,stores,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro usado,1413,Alto,4-to-7,3,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,55,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,9,Crítico,Rádio/televisão,3074,none,good-to-4,1,Homem - solteiro,none,2,Imóvel,33,none,Dono,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Rádio/televisão,3835,none,7-+,2,Mulher - divorciada/separada/casada,none,4,Imóvel,45,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,27,Totalmente pago,Negócios,5293,Minimo,Desempregado,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,50,stores,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,estavel,30,Atraso passado,Negócios,1908,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,66,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Rádio/televisão,3342,none,7-+,4,Homem - solteiro,none,2,Carro/outro,51,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,6,Crítico,Requalificação,932,none,4-to-7,1,Mulher - divorciada/separada/casada,none,3,Acordo de poupança/seguro de vida,39,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,18,Totalmente pago,Negócios,3104,Minimo,4-to-7,3,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,31,bank,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,36,Em dia,Rádio/televisão,3913,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,23,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Móveis/equipamentos,3021,Minimo,good-to-4,2,Homem - divorciado/separado,none,2,Imóvel,24,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Carro novo,1364,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,64,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Rádio/televisão,625,Minimo,Menos de 1,4,Homem - casado/viúvo,Fiador,1,Imóvel,26,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Educação,1200,none,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,23,bank,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,707,Minimo,good-to-4,4,Homem - solteiro,none,2,Imóvel,30,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Atraso passado,Negócios,2978,none,good-to-4,4,Homem - solteiro,none,4,Imóvel,32,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Carro usado,4657,Minimo,good-to-4,3,Homem - solteiro,none,2,Carro/outro,30,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Totalmente pago,Reparos,2613,Minimo,good-to-4,4,Homem - solteiro,none,2,Carro/outro,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,48,Em dia,Rádio/televisão,10961,Alto,4-to-7,1,Homem - solteiro,Co-requerente,2,Desconhecido/nenhum,27,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Móveis/equipamentos,7865,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,53,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,9,Em dia,Rádio/televisão,1478,Minimo,4-to-7,4,Homem - solteiro,none,2,Carro/outro,22,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Móveis/equipamentos,3149,Minimo,Menos de 1,4,Homem - solteiro,none,1,Desconhecido/nenhum,22,bank,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,estavel,36,Em dia,Rádio/televisão,4210,Minimo,good-to-4,4,Homem - solteiro,none,2,Carro/outro,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Carro novo,2507,Medio,7-+,2,Homem - solteiro,none,4,Desconhecido/nenhum,51,none,for-free,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,2141,Baixo,4-to-7,3,Homem - solteiro,none,1,Desconhecido/nenhum,35,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Rádio/televisão,866,Minimo,good-to-4,4,Homem - casado/viúvo,Fiador,2,Imóvel,25,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,4,Crítico,Rádio/televisão,1544,Minimo,4-to-7,2,Homem - solteiro,none,1,Imóvel,42,none,Dono,3,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Rádio/televisão,1823,Minimo,Desempregado,4,Homem - solteiro,none,2,Carro/outro,30,stores,Dono,1,Alta qualificação,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,6,Em dia,Carro novo,14555,none,Desempregado,1,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,23,none,Dono,1,Não qualificado/não residente,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,21,Em dia,Negócios,2767,Baixo,7-+,4,Homem - divorciado/separado,none,2,Carro/outro,61,bank,Aluguel,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,1291,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,35,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,30,Em dia,Rádio/televisão,2522,Minimo,7-+,1,Homem - solteiro,Fiador,3,Acordo de poupança/seguro de vida,39,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Carro novo,915,none,7-+,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,29,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Rádio/televisão,1595,Minimo,4-to-7,3,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,51,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,48,Totalmente pago,Carro usado,4605,Minimo,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,24,none,for-free,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Negócios,1185,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Imóvel,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Pagamento pelo banco,Requalificação,3447,Medio,good-to-4,4,Mulher - divorciada/separada/casada,none,3,Imóvel,35,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Negócios,1258,Minimo,4-to-7,4,Homem - solteiro,none,1,Imóvel,25,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,717,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,52,none,Dono,3,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Totalmente pago,Carro novo,1204,Baixo,good-to-4,4,Homem - solteiro,none,1,Desconhecido/nenhum,35,bank,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,estavel,24,Em dia,Móveis/equipamentos,1925,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,18,Em dia,Rádio/televisão,433,Minimo,Desempregado,3,Mulher - divorciada/separada/casada,Co-requerente,4,Imóvel,22,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Crítico,Carro novo,666,Alto,4-to-7,3,Mulher - divorciada/separada/casada,none,4,Imóvel,39,none,Dono,2,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,12,Em dia,Móveis/equipamentos,2251,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,2,Carro/outro,46,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,30,Em dia,Carro novo,2150,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,Fiador,2,Desconhecido/nenhum,24,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Atraso passado,Móveis/equipamentos,4151,Baixo,good-to-4,2,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,35,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Móveis/equipamentos,2030,none,4-to-7,2,Homem - solteiro,none,1,Carro/outro,24,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,60,Atraso passado,Rádio/televisão,7418,none,good-to-4,1,Homem - solteiro,none,1,Imóvel,27,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,2684,Minimo,good-to-4,4,Homem - solteiro,none,2,Imóvel,35,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Pagamento pelo banco,Rádio/televisão,2149,Minimo,good-to-4,4,Homem - divorciado/separado,none,1,Desconhecido/nenhum,29,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Carro usado,3812,Baixo,Menos de 1,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,23,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,11,Crítico,Rádio/televisão,1154,Baixo,Desempregado,4,Mulher - divorciada/separada/casada,none,4,Imóvel,57,none,Dono,3,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,1657,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,27,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Rádio/televisão,1603,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,55,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,18,Crítico,Carro novo,5302,Minimo,7-+,2,Homem - solteiro,none,4,Desconhecido/nenhum,36,none,for-free,3,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Educação,2748,Minimo,7-+,2,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,57,bank,for-free,3,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,10,Crítico,Carro novo,1231,Minimo,7-+,3,Homem - solteiro,none,4,Imóvel,32,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Local
+Ruim,Baixo,15,Em dia,Rádio/televisão,802,Minimo,7-+,4,Homem - solteiro,none,3,Carro/outro,37,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Negócios,6304,none,7-+,4,Homem - solteiro,none,4,Imóvel,36,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,1533,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,3,Carro/outro,38,stores,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,14,Em dia,Carro novo,8978,Minimo,7-+,1,Homem - divorciado/separado,none,4,Acordo de poupança/seguro de vida,45,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Local
+Bom,none,24,Em dia,Rádio/televisão,999,none,7-+,4,Homem - solteiro,none,2,Carro/outro,25,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Carro novo,2662,none,4-to-7,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,32,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,12,Crítico,Móveis/equipamentos,1402,Medio,4-to-7,3,Mulher - divorciada/separada/casada,none,4,Carro/outro,37,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,48,Pagamento pelo banco,Carro novo,12169,none,Desempregado,4,Homem - solteiro,Co-requerente,4,Desconhecido/nenhum,36,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,48,Em dia,Rádio/televisão,3060,Minimo,4-to-7,4,Homem - solteiro,none,4,Imóvel,28,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,30,Em dia,Reparos,11998,Minimo,Menos de 1,1,Homem - divorciado/separado,none,1,Desconhecido/nenhum,34,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Rádio/televisão,2697,Minimo,good-to-4,1,Homem - solteiro,none,2,Imóvel,32,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,2404,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Carro/outro,26,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,1262,none,7-+,2,Homem - divorciado/separado,none,4,Acordo de poupança/seguro de vida,49,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,6,Em dia,Móveis/equipamentos,4611,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,32,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,1901,Baixo,good-to-4,4,Homem - solteiro,none,4,Carro/outro,29,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Carro usado,3368,Alto,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,23,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Móveis/equipamentos,1574,Minimo,good-to-4,4,Homem - solteiro,none,2,Imóvel,50,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,18,Pagamento pelo banco,Rádio/televisão,1445,none,4-to-7,4,Homem - solteiro,none,4,Carro/outro,49,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Móveis/equipamentos,1520,none,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,63,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Crítico,Carro novo,3878,Baixo,Menos de 1,4,Homem - divorciado/separado,none,2,Carro/outro,37,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,47,Em dia,Carro novo,10722,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,1,Imóvel,35,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,48,Em dia,Carro usado,4788,Minimo,4-to-7,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,26,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,48,Atraso passado,outro,7582,Baixo,Desempregado,2,Homem - solteiro,none,4,Desconhecido/nenhum,31,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Rádio/televisão,1092,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,Fiador,4,Imóvel,49,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Atraso passado,Rádio/televisão,1024,Minimo,Menos de 1,4,Homem - casado/viúvo,none,4,Imóvel,48,stores,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Negócios,1076,Minimo,good-to-4,2,Homem - casado/viúvo,none,2,Imóvel,26,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Local
+Ruim,Baixo,36,Em dia,Carro usado,9398,Minimo,Menos de 1,1,Homem - casado/viúvo,none,4,Carro/outro,28,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,24,Crítico,Carro usado,6419,Minimo,7-+,2,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,44,none,for-free,2,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,42,Crítico,Carro usado,4796,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,56,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,48,Crítico,Negócios,7629,none,7-+,4,Homem - divorciado/separado,none,2,Carro/outro,46,bank,Dono,2,Alta qualificação,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,48,Em dia,Móveis/equipamentos,9960,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,2,Carro/outro,26,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro usado,4675,none,Menos de 1,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,20,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Carro novo,1287,none,7-+,4,Homem - solteiro,Co-requerente,2,Acordo de poupança/seguro de vida,45,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,18,Em dia,Móveis/equipamentos,2515,Minimo,good-to-4,3,Homem - solteiro,none,4,Imóvel,43,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,21,Crítico,Móveis/equipamentos,2745,Alto,4-to-7,3,Homem - solteiro,none,2,Carro/outro,32,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Carro novo,672,Minimo,Desempregado,1,Mulher - divorciada/separada/casada,none,4,Imóvel,54,none,Dono,1,Não qualificado/não residente,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,36,Totalmente pago,Rádio/televisão,3804,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,1,Carro/outro,42,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,estavel,24,Crítico,Carro novo,1344,none,4-to-7,4,Homem - solteiro,none,2,Imóvel,37,bank,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,10,Crítico,Carro novo,1038,Minimo,4-to-7,4,Homem - solteiro,Co-requerente,3,Acordo de poupança/seguro de vida,49,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,48,Crítico,Carro novo,10127,Medio,good-to-4,2,Homem - solteiro,none,2,Desconhecido/nenhum,44,bank,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Móveis/equipamentos,1543,Alto,good-to-4,4,Homem - divorciado/separado,none,2,Imóvel,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,30,Em dia,Carro usado,4811,none,4-to-7,2,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,24,stores,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Rádio/televisão,727,Baixo,Menos de 1,4,Homem - casado/viúvo,none,3,Desconhecido/nenhum,33,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,8,Em dia,Móveis/equipamentos,1237,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,4,Imóvel,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Carro novo,276,Minimo,good-to-4,4,Homem - casado/viúvo,none,4,Imóvel,22,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,48,Em dia,outro,5381,none,Desempregado,3,Homem - solteiro,none,4,Desconhecido/nenhum,40,bank,for-free,1,Não qualificado/não residente,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Móveis/equipamentos,5511,Baixo,good-to-4,4,Homem - solteiro,none,1,Carro/outro,25,stores,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,24,Em dia,Móveis/equipamentos,3749,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Carro novo,685,Minimo,4-to-7,2,Homem - casado/viúvo,none,3,Carro/outro,25,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,4,Em dia,Carro novo,1494,none,Menos de 1,1,Homem - solteiro,none,2,Imóvel,29,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Local
+Ruim,negativo,36,Pagamento pelo banco,Móveis/equipamentos,2746,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,31,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,708,Minimo,good-to-4,2,Homem - solteiro,Fiador,3,Acordo de poupança/seguro de vida,38,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Móveis/equipamentos,4351,none,good-to-4,1,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,48,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Educação,701,Minimo,good-to-4,4,Homem - solteiro,none,2,Carro/outro,32,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,15,Atraso passado,Móveis/equipamentos,3643,Minimo,7-+,1,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,27,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,30,Crítico,Carro novo,4249,Minimo,Desempregado,4,Homem - casado/viúvo,none,2,Carro/outro,28,none,Dono,2,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Rádio/televisão,1938,Minimo,Menos de 1,4,Homem - divorciado/separado,none,3,Acordo de poupança/seguro de vida,32,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Carro usado,2910,Minimo,4-to-7,2,Homem - solteiro,none,1,Desconhecido/nenhum,34,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,18,Em dia,Móveis/equipamentos,2659,Alto,good-to-4,4,Homem - solteiro,none,2,Carro/outro,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Carro novo,1028,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,3,Imóvel,36,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,8,Crítico,Carro novo,3398,Minimo,4-to-7,1,Homem - solteiro,none,4,Imóvel,39,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,12,Crítico,Móveis/equipamentos,5801,none,7-+,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,49,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro novo,1525,Alto,4-to-7,4,Mulher - divorciada/separada/casada,none,3,Carro/outro,34,none,Dono,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,36,Em dia,Rádio/televisão,4473,Minimo,7-+,4,Homem - solteiro,none,2,Carro/outro,31,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,6,Em dia,Rádio/televisão,1068,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,28,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Crítico,Carro usado,6615,Minimo,Desempregado,2,Homem - solteiro,none,4,Desconhecido/nenhum,75,none,for-free,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,18,Crítico,Educação,1864,Baixo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Imóvel,30,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,60,Em dia,Carro novo,7408,Baixo,Menos de 1,4,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,24,none,Dono,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,48,Crítico,Carro usado,11590,Baixo,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,24,bank,Aluguel,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Totalmente pago,Móveis/equipamentos,4110,Minimo,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,23,bank,Aluguel,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,6,Crítico,Móveis/equipamentos,3384,Minimo,good-to-4,1,Homem - divorciado/separado,none,4,Imóvel,44,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,13,Em dia,Rádio/televisão,2101,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,Fiador,4,Acordo de poupança/seguro de vida,23,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,15,Em dia,Eletrodomésticos,1275,none,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,24,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Móveis/equipamentos,4169,Minimo,good-to-4,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,10,Em dia,Móveis/equipamentos,1521,Minimo,good-to-4,4,Homem - divorciado/separado,none,2,Carro/outro,31,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Crítico,Educação,5743,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,24,none,for-free,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,21,Em dia,Móveis/equipamentos,3599,Minimo,4-to-7,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,26,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Rádio/televisão,3213,Medio,Menos de 1,1,Homem - casado/viúvo,none,3,Imóvel,25,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Negócios,4439,Minimo,7-+,1,Homem - solteiro,Co-requerente,1,Imóvel,33,bank,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,10,Em dia,Carro novo,3949,Minimo,Menos de 1,1,Homem - solteiro,Fiador,1,Acordo de poupança/seguro de vida,37,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Rádio/televisão,1459,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,43,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,13,Crítico,Rádio/televisão,882,Minimo,Menos de 1,4,Homem - solteiro,Fiador,4,Imóvel,23,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Rádio/televisão,3758,Medio,Desempregado,1,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,23,none,Aluguel,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Atraso passado,Negócios,1743,Baixo,good-to-4,1,Homem - solteiro,none,2,Imóvel,34,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,9,Crítico,Educação,1136,Alto,7-+,4,Homem - solteiro,none,3,Desconhecido/nenhum,32,none,for-free,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Eletrodomésticos,1236,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,4,Imóvel,23,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,9,Em dia,Móveis/equipamentos,959,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,2,Carro/outro,29,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,18,Crítico,Carro usado,3229,none,Desempregado,2,Homem - solteiro,none,4,Desconhecido/nenhum,38,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Totalmente pago,Rádio/televisão,6199,Minimo,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,28,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Educação,727,Medio,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,46,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Carro novo,1246,Minimo,Menos de 1,4,Homem - solteiro,none,2,Imóvel,23,stores,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,2331,none,7-+,1,Homem - solteiro,Co-requerente,4,Imóvel,49,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,36,Atraso passado,Rádio/televisão,4463,Minimo,good-to-4,4,Homem - solteiro,none,2,Carro/outro,26,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,776,Minimo,good-to-4,4,Homem - casado/viúvo,none,2,Imóvel,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,30,Em dia,Móveis/equipamentos,2406,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,4,Imóvel,23,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Educação,1239,none,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,61,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,12,Em dia,Rádio/televisão,3399,none,7-+,2,Homem - solteiro,none,3,Carro/outro,37,none,Dono,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,12,Atraso passado,Carro novo,2247,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Carro/outro,36,stores,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Móveis/equipamentos,1766,Minimo,good-to-4,1,Homem - casado/viúvo,none,2,Acordo de poupança/seguro de vida,21,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Móveis/equipamentos,2473,Minimo,Desempregado,4,Homem - solteiro,none,1,Carro/outro,25,none,Dono,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Negócios,1542,Minimo,4-to-7,2,Homem - solteiro,none,4,Carro/outro,36,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Carro usado,3850,Minimo,4-to-7,3,Homem - solteiro,none,1,Carro/outro,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,18,Em dia,Móveis/equipamentos,3650,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,22,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Móveis/equipamentos,3446,Minimo,7-+,4,Homem - solteiro,none,2,Carro/outro,42,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Móveis/equipamentos,3001,Minimo,4-to-7,2,Mulher - divorciada/separada/casada,none,4,Imóvel,40,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Carro novo,3079,none,good-to-4,4,Homem - solteiro,none,4,Imóvel,36,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,6070,Minimo,7-+,3,Homem - solteiro,none,4,Carro/outro,33,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,10,Crítico,Móveis/equipamentos,2146,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,3,Imóvel,23,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,60,Crítico,Carro novo,13756,none,7-+,2,Homem - solteiro,none,4,Desconhecido/nenhum,63,bank,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,60,Pagamento pelo banco,outro,14782,Baixo,7-+,3,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,60,bank,for-free,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,48,Pagamento pelo banco,Negócios,7685,Minimo,4-to-7,2,Mulher - divorciada/separada/casada,Fiador,4,Carro/outro,37,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Atraso passado,Rádio/televisão,2320,Minimo,Desempregado,2,Homem - casado/viúvo,none,3,Imóvel,34,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,7,Atraso passado,Rádio/televisão,846,none,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,36,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,36,Em dia,Carro novo,14318,Minimo,7-+,4,Homem - solteiro,none,2,Desconhecido/nenhum,57,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Carro novo,362,Baixo,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,52,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,20,Em dia,Móveis/equipamentos,2212,none,4-to-7,4,Homem - solteiro,none,4,Carro/outro,39,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,18,Em dia,Carro usado,12976,Minimo,Desempregado,3,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,38,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,22,Em dia,Carro novo,1283,none,4-to-7,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,25,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,12,Em dia,Carro novo,1330,Minimo,Menos de 1,4,Homem - solteiro,none,1,Imóvel,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,30,Atraso passado,Negócios,4272,Baixo,good-to-4,2,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,26,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,2238,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,1,Carro/outro,25,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Rádio/televisão,1126,none,Menos de 1,4,Mulher - divorciada/separada/casada,none,2,Imóvel,21,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Crítico,Móveis/equipamentos,7374,Minimo,Desempregado,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,40,stores,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,15,Crítico,Negócios,2326,Medio,good-to-4,2,Homem - solteiro,none,4,Carro/outro,27,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Negócios,1449,Minimo,4-to-7,3,Mulher - divorciada/separada/casada,none,2,Carro/outro,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Carro novo,1820,Minimo,good-to-4,2,Homem - casado/viúvo,none,2,Acordo de poupança/seguro de vida,30,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Móveis/equipamentos,983,Alto,Menos de 1,1,Mulher - divorciada/separada/casada,none,4,Imóvel,19,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,36,Em dia,Carro novo,3249,Minimo,4-to-7,2,Homem - solteiro,none,4,Desconhecido/nenhum,39,bank,for-free,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,6,Crítico,Rádio/televisão,1957,Minimo,4-to-7,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,31,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,9,Crítico,Móveis/equipamentos,2406,Minimo,Desempregado,2,Homem - solteiro,none,3,Carro/outro,31,none,Dono,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,39,Atraso passado,Educação,11760,Baixo,4-to-7,2,Homem - solteiro,none,3,Desconhecido/nenhum,32,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,2578,Minimo,Desempregado,3,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,55,none,for-free,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,36,Crítico,Móveis/equipamentos,2348,Minimo,good-to-4,3,Homem - casado/viúvo,none,2,Acordo de poupança/seguro de vida,46,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Carro novo,1223,Minimo,7-+,1,Homem - divorciado/separado,none,1,Imóvel,46,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,1516,Alto,good-to-4,4,Mulher - divorciada/separada/casada,none,1,Imóvel,43,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Rádio/televisão,1473,Minimo,Menos de 1,3,Homem - casado/viúvo,none,4,Imóvel,39,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Crítico,Negócios,1887,none,good-to-4,4,Homem - casado/viúvo,none,4,Imóvel,28,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,24,Atraso passado,Negócios,8648,Minimo,Menos de 1,2,Homem - solteiro,none,2,Carro/outro,27,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,14,Atraso passado,Carro novo,802,Minimo,good-to-4,4,Homem - solteiro,none,2,Carro/outro,27,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Atraso passado,Carro novo,2899,none,7-+,4,Homem - solteiro,none,4,Carro/outro,43,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Rádio/televisão,2039,Minimo,Menos de 1,1,Homem - casado/viúvo,none,1,Acordo de poupança/seguro de vida,22,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Carro usado,2197,none,4-to-7,4,Homem - solteiro,none,4,Carro/outro,43,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,15,Em dia,Rádio/televisão,1053,Minimo,Menos de 1,4,Homem - casado/viúvo,none,2,Imóvel,27,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,24,Em dia,Rádio/televisão,3235,Medio,7-+,3,Homem - divorciado/separado,none,2,Carro/outro,26,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,estavel,12,Crítico,Carro novo,939,Medio,4-to-7,4,Homem - casado/viúvo,none,2,Imóvel,28,none,Dono,3,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Rádio/televisão,1967,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,20,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,33,Crítico,Carro usado,7253,Minimo,4-to-7,3,Homem - solteiro,none,2,Carro/outro,35,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,12,Crítico,Negócios,2292,Minimo,Desempregado,4,Homem - solteiro,none,2,Carro/outro,42,stores,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Carro novo,1597,Medio,good-to-4,3,Homem - solteiro,none,2,Desconhecido/nenhum,40,none,Aluguel,1,Residente não qualificado,2,Sem Telefone,Trabalhador Local
+Ruim,negativo,24,Em dia,Carro novo,1381,none,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,35,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Carro usado,5842,Minimo,7-+,2,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,35,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Carro novo,2579,Minimo,Menos de 1,4,Homem - solteiro,none,1,Imóvel,33,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,18,Atraso passado,Educação,8471,none,good-to-4,1,Mulher - divorciada/separada/casada,none,2,Carro/outro,23,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,21,Em dia,Carro novo,2782,Medio,4-to-7,1,Mulher - divorciada/separada/casada,none,2,Carro/outro,31,bank,Dono,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,18,Em dia,Carro novo,1042,none,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Carro novo,3186,Alto,4-to-7,2,Mulher - divorciada/separada/casada,none,3,Carro/outro,20,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Carro usado,2028,none,good-to-4,4,Homem - solteiro,none,2,Carro/outro,30,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Crítico,Carro novo,958,Minimo,4-to-7,2,Homem - solteiro,none,3,Imóvel,47,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,21,Atraso passado,Móveis/equipamentos,1591,Baixo,4-to-7,4,Homem - solteiro,none,3,Imóvel,34,none,Dono,2,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Móveis/equipamentos,2762,none,7-+,1,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,25,bank,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Carro usado,2779,Minimo,good-to-4,1,Homem - casado/viúvo,none,3,Carro/outro,21,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,28,Crítico,Rádio/televisão,2743,Minimo,7-+,4,Homem - solteiro,none,2,Carro/outro,29,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,1149,Alto,good-to-4,4,Homem - solteiro,none,3,Imóvel,46,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Móveis/equipamentos,1313,Minimo,7-+,1,Homem - solteiro,none,4,Carro/outro,20,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Crítico,Reparos,1190,Minimo,Desempregado,2,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,55,none,for-free,3,Não qualificado/não residente,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,5,Em dia,Negócios,3448,Minimo,4-to-7,1,Homem - solteiro,none,4,Imóvel,74,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,outro,11328,Minimo,good-to-4,2,Homem - solteiro,Co-requerente,3,Carro/outro,29,bank,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,6,Crítico,Móveis/equipamentos,1872,Minimo,Desempregado,4,Homem - solteiro,none,4,Desconhecido/nenhum,36,none,for-free,3,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Reparos,2058,Minimo,good-to-4,4,Homem - divorciado/separado,none,2,Imóvel,33,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,9,Em dia,Móveis/equipamentos,2136,Minimo,good-to-4,3,Homem - solteiro,none,2,Imóvel,25,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Rádio/televisão,1484,none,good-to-4,2,Homem - casado/viúvo,none,1,Imóvel,25,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Reparos,660,Medio,4-to-7,2,Homem - casado/viúvo,none,4,Imóvel,23,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Carro novo,1287,Alto,7-+,4,Mulher - divorciada/separada/casada,none,4,Imóvel,37,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,42,Crítico,Reparos,3394,Minimo,Desempregado,4,Homem - solteiro,Co-requerente,4,Carro/outro,65,none,Dono,2,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,estavel,12,Pagamento pelo banco,Negócios,609,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Imóvel,26,none,Dono,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro novo,1884,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,39,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,1620,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,Co-requerente,3,Acordo de poupança/seguro de vida,30,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,20,Atraso passado,outro,2629,Minimo,good-to-4,2,Homem - solteiro,none,3,Carro/outro,29,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,12,Em dia,Educação,719,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,41,bank,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,48,Crítico,Móveis/equipamentos,5096,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,3,Carro/outro,30,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,9,Crítico,Educação,1244,none,7-+,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,41,none,Aluguel,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Carro novo,1842,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,34,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,7,Em dia,Rádio/televisão,2576,Minimo,good-to-4,2,Homem - solteiro,Fiador,2,Imóvel,35,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,12,Em dia,Móveis/equipamentos,1424,none,7-+,3,Mulher - divorciada/separada/casada,none,4,Imóvel,55,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,15,Atraso passado,Reparos,1512,Alto,good-to-4,3,Homem - casado/viúvo,none,3,Acordo de poupança/seguro de vida,61,stores,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Carro usado,11054,none,good-to-4,4,Homem - solteiro,none,2,Carro/outro,30,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Rádio/televisão,518,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,1,Imóvel,29,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Totalmente pago,Móveis/equipamentos,2759,Minimo,7-+,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,34,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro usado,2670,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,35,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Carro novo,4817,Minimo,4-to-7,2,Homem - solteiro,Co-requerente,3,Acordo de poupança/seguro de vida,31,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro usado,2679,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Desconhecido/nenhum,29,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,11,Crítico,Carro novo,3905,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,36,none,Aluguel,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Carro usado,3386,Minimo,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,35,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,6,Em dia,Eletrodomésticos,343,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Imóvel,27,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Rádio/televisão,4594,Minimo,Menos de 1,3,Homem - solteiro,none,2,Carro/outro,32,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,36,Em dia,Móveis/equipamentos,3620,Minimo,good-to-4,1,Homem - solteiro,Fiador,2,Acordo de poupança/seguro de vida,37,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,15,Em dia,Carro novo,1721,Minimo,Menos de 1,2,Homem - solteiro,none,3,Imóvel,36,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Móveis/equipamentos,3017,Minimo,Menos de 1,3,Mulher - divorciada/separada/casada,none,1,Imóvel,34,none,Aluguel,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Requalificação,754,none,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,38,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Negócios,1950,Minimo,4-to-7,4,Homem - solteiro,none,1,Carro/outro,34,stores,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Carro usado,2924,Minimo,good-to-4,3,Homem - solteiro,Fiador,4,Desconhecido/nenhum,63,bank,Dono,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Atraso passado,Rádio/televisão,1659,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,29,none,Aluguel,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,48,Atraso passado,Rádio/televisão,7238,none,7-+,3,Homem - solteiro,none,3,Carro/outro,32,bank,Dono,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,33,Atraso passado,Negócios,2764,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Carro/outro,26,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Atraso passado,Carro usado,4679,Minimo,4-to-7,3,Homem - solteiro,none,3,Carro/outro,35,none,Dono,2,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Rádio/televisão,3092,Baixo,Menos de 1,3,Homem - casado/viúvo,none,2,Carro/outro,22,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,6,Em dia,Educação,448,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,23,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,9,Em dia,Carro novo,654,Minimo,good-to-4,4,Homem - solteiro,none,3,Carro/outro,28,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Requalificação,1238,none,Desempregado,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,36,none,Dono,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,18,Crítico,Rádio/televisão,1245,Minimo,good-to-4,4,Homem - casado/viúvo,none,2,Carro/outro,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Totalmente pago,Móveis/equipamentos,3114,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,26,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,39,Em dia,Carro usado,2569,Medio,good-to-4,4,Homem - solteiro,none,4,Carro/outro,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,24,Em dia,Rádio/televisão,5152,Minimo,4-to-7,4,Homem - solteiro,none,2,Carro/outro,25,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Negócios,1037,Baixo,4-to-7,3,Homem - solteiro,none,4,Imóvel,39,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,15,Crítico,Móveis/equipamentos,1478,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,44,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Crítico,Rádio/televisão,3573,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,1,Imóvel,23,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Carro novo,1201,Minimo,Menos de 1,4,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,30,Em dia,Móveis/equipamentos,3622,Alto,7-+,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,57,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Atraso passado,Móveis/equipamentos,960,Alto,4-to-7,3,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,30,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Carro novo,1163,Medio,good-to-4,4,Homem - solteiro,none,4,Imóvel,44,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,6,Atraso passado,Carro novo,1209,Minimo,Desempregado,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,47,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,3077,Minimo,good-to-4,2,Homem - solteiro,none,4,Carro/outro,52,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro novo,3757,Minimo,7-+,4,Mulher - divorciada/separada/casada,Co-requerente,4,Desconhecido/nenhum,62,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Carro novo,1418,Baixo,good-to-4,3,Homem - solteiro,none,2,Imóvel,35,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,6,Em dia,Carro novo,3518,Minimo,good-to-4,2,Homem - solteiro,Fiador,3,Acordo de poupança/seguro de vida,26,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,1934,Minimo,7-+,2,Homem - solteiro,none,2,Desconhecido/nenhum,26,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,27,Totalmente pago,Negócios,8318,Minimo,7-+,2,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,42,none,for-free,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Rádio/televisão,1237,Baixo,good-to-4,1,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,6,Em dia,Rádio/televisão,368,none,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,38,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Crítico,Carro novo,2122,Minimo,good-to-4,3,Homem - solteiro,none,2,Imóvel,39,none,Aluguel,2,Residente não qualificado,2,Sem Telefone,Trabalhador Local
+Ruim,negativo,24,Em dia,Móveis/equipamentos,2996,none,good-to-4,2,Homem - casado/viúvo,none,4,Carro/outro,20,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,36,Em dia,Móveis/equipamentos,9034,Baixo,Menos de 1,4,Homem - solteiro,Co-requerente,1,Desconhecido/nenhum,29,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Móveis/equipamentos,1585,Minimo,4-to-7,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,40,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Rádio/televisão,1301,Minimo,7-+,4,Homem - casado/viúvo,Fiador,2,Imóvel,32,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,6,Crítico,Carro novo,1323,Baixo,7-+,2,Homem - divorciado/separado,none,4,Carro/outro,28,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Carro novo,3123,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,27,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,36,Em dia,Carro usado,5493,Minimo,7-+,2,Homem - solteiro,none,4,Desconhecido/nenhum,42,none,for-free,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,9,Em dia,Rádio/televisão,1126,Baixo,7-+,2,Homem - divorciado/separado,none,4,Imóvel,49,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Crítico,Rádio/televisão,1216,Baixo,Menos de 1,4,Homem - solteiro,none,4,Desconhecido/nenhum,38,bank,Dono,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Carro novo,1207,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,24,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,10,Em dia,Carro novo,1309,none,good-to-4,4,Homem - solteiro,Fiador,4,Acordo de poupança/seguro de vida,27,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,15,Crítico,Carro usado,2360,Medio,good-to-4,2,Homem - solteiro,none,2,Carro/outro,36,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,15,Pagamento pelo banco,Carro novo,6850,Baixo,Desempregado,1,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,34,none,Dono,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,1413,Minimo,good-to-4,4,Homem - casado/viúvo,none,2,Acordo de poupança/seguro de vida,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,39,Em dia,Carro usado,8588,Baixo,7-+,4,Homem - solteiro,none,2,Carro/outro,45,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Carro novo,759,Minimo,4-to-7,4,Homem - solteiro,none,2,Imóvel,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Carro usado,4686,Minimo,good-to-4,2,Homem - solteiro,none,2,Desconhecido/nenhum,32,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,15,Em dia,Negócios,2687,Minimo,4-to-7,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,26,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Atraso passado,Rádio/televisão,585,Minimo,good-to-4,4,Homem - casado/viúvo,Co-requerente,4,Imóvel,20,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro novo,2255,none,Menos de 1,4,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,54,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Crítico,Carro novo,609,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,3,Acordo de poupança/seguro de vida,37,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,negativo,6,Crítico,Carro novo,1361,Minimo,Menos de 1,2,Homem - solteiro,none,4,Imóvel,40,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Local
+Ruim,none,36,Crítico,Móveis/equipamentos,7127,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,23,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,6,Em dia,Carro novo,1203,Baixo,7-+,3,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,43,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Rádio/televisão,700,none,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,36,none,for-free,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Reparos,5507,Minimo,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,44,none,for-free,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Rádio/televisão,3190,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Imóvel,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,48,Totalmente pago,Móveis/equipamentos,7119,Minimo,good-to-4,3,Homem - solteiro,none,4,Desconhecido/nenhum,53,none,for-free,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro usado,3488,Baixo,4-to-7,3,Mulher - divorciada/separada/casada,none,4,Carro/outro,23,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Rádio/televisão,1113,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,Fiador,4,Imóvel,26,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,26,Em dia,Carro usado,7966,Minimo,Menos de 1,2,Homem - solteiro,none,3,Carro/outro,30,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Educação,1532,Baixo,good-to-4,4,Mulher - divorciada/separada/casada,none,3,Carro/outro,31,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,4,Crítico,Rádio/televisão,1503,Minimo,4-to-7,2,Homem - solteiro,none,1,Imóvel,42,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Rádio/televisão,2302,Minimo,good-to-4,4,Homem - divorciado/separado,none,4,Carro/outro,31,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Em dia,Carro novo,662,Minimo,Menos de 1,3,Homem - solteiro,none,4,Imóvel,41,none,Dono,1,Residente não qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,36,Em dia,Educação,2273,Minimo,4-to-7,3,Homem - solteiro,none,1,Carro/outro,32,none,Dono,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,15,Em dia,Carro novo,2631,Baixo,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,28,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Atraso passado,Carro usado,1503,Minimo,good-to-4,4,Homem - casado/viúvo,none,4,Imóvel,41,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,1311,Baixo,4-to-7,4,Homem - casado/viúvo,none,3,Acordo de poupança/seguro de vida,26,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,3105,none,Menos de 1,4,Homem - solteiro,none,2,Carro/outro,25,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,estavel,21,Crítico,Educação,2319,Minimo,Menos de 1,2,Homem - divorciado/separado,none,1,Carro/outro,33,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Em dia,Carro novo,1374,none,Desempregado,4,Mulher - divorciada/separada/casada,none,3,Acordo de poupança/seguro de vida,75,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Crítico,Móveis/equipamentos,3612,Minimo,7-+,3,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,37,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,48,Em dia,Carro novo,7763,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,42,bank,for-free,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,18,Em dia,Móveis/equipamentos,3049,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,45,stores,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Rádio/televisão,1534,Minimo,Menos de 1,1,Homem - casado/viúvo,none,1,Imóvel,23,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Atraso passado,Carro novo,2032,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,60,none,for-free,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,30,Em dia,Móveis/equipamentos,6350,none,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,31,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,estavel,18,Em dia,Móveis/equipamentos,2864,Minimo,good-to-4,2,Homem - solteiro,none,1,Imóvel,34,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Carro novo,1255,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,61,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Atraso passado,Carro novo,1333,Minimo,Desempregado,4,Homem - solteiro,none,2,Imóvel,43,none,for-free,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Carro novo,2022,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,37,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,1552,Minimo,4-to-7,3,Homem - solteiro,none,1,Carro/outro,32,bank,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Pagamento pelo banco,Rádio/televisão,626,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Imóvel,24,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,48,Crítico,Carro usado,8858,none,4-to-7,2,Homem - solteiro,none,1,Desconhecido/nenhum,35,none,for-free,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Reparos,996,none,4-to-7,4,Mulher - divorciada/separada/casada,none,4,Imóvel,23,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Pagamento pelo banco,Rádio/televisão,1750,Medio,7-+,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,45,bank,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,48,Em dia,Rádio/televisão,6999,Minimo,4-to-7,1,Homem - casado/viúvo,Fiador,1,Imóvel,34,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Crítico,Carro novo,1995,Baixo,Menos de 1,4,Homem - solteiro,none,1,Carro/outro,27,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Educação,1199,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,67,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Rádio/televisão,1331,Minimo,Menos de 1,2,Homem - solteiro,none,1,Carro/outro,22,stores,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,18,Totalmente pago,Carro novo,2278,Baixo,Menos de 1,3,Mulher - divorciada/separada/casada,none,3,Carro/outro,28,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,21,Totalmente pago,Carro novo,5003,none,good-to-4,1,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,29,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Pagamento pelo banco,Móveis/equipamentos,3552,Minimo,4-to-7,3,Homem - solteiro,none,4,Carro/outro,27,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,18,Crítico,Móveis/equipamentos,1928,Minimo,Menos de 1,2,Homem - solteiro,none,2,Imóvel,31,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Carro usado,2964,none,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,49,bank,for-free,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Pagamento pelo banco,Rádio/televisão,1546,Minimo,4-to-7,4,Homem - solteiro,Fiador,4,Carro/outro,24,bank,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,6,Atraso passado,Rádio/televisão,683,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,29,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,36,Em dia,Carro novo,12389,none,good-to-4,1,Homem - solteiro,none,4,Desconhecido/nenhum,37,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,24,Atraso passado,Negócios,4712,none,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,37,bank,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,24,Atraso passado,Rádio/televisão,1553,Baixo,4-to-7,3,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,23,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Carro novo,1372,Minimo,4-to-7,2,Homem - divorciado/separado,none,3,Carro/outro,36,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,2578,Alto,7-+,2,Homem - solteiro,none,2,Carro/outro,34,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,48,Em dia,Rádio/televisão,3979,none,4-to-7,4,Homem - solteiro,none,1,Carro/outro,41,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,48,Em dia,Rádio/televisão,6758,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Carro/outro,31,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Móveis/equipamentos,3234,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Imóvel,23,none,Aluguel,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,30,Crítico,Rádio/televisão,5954,Minimo,4-to-7,3,Homem - solteiro,Co-requerente,2,Carro/outro,38,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro usado,5433,none,Desempregado,2,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,26,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,15,Em dia,Negócios,806,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,22,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Rádio/televisão,1082,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,27,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Móveis/equipamentos,2788,Minimo,4-to-7,2,Mulher - divorciada/separada/casada,Co-requerente,3,Carro/outro,24,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Rádio/televisão,2930,Minimo,4-to-7,2,Mulher - divorciada/separada/casada,none,1,Imóvel,27,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Educação,1927,none,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Carro/outro,33,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,36,Crítico,Carro novo,2820,Minimo,Menos de 1,4,Homem - divorciado/separado,none,4,Carro/outro,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Requalificação,937,Minimo,Menos de 1,4,Homem - casado/viúvo,none,3,Carro/outro,27,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,18,Crítico,Carro novo,1056,Minimo,7-+,3,Homem - solteiro,Fiador,3,Imóvel,30,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Crítico,Carro novo,3124,Minimo,Menos de 1,1,Homem - solteiro,none,3,Imóvel,49,bank,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Móveis/equipamentos,1388,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Imóvel,26,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,36,Em dia,Reparos,2384,Minimo,Menos de 1,4,Homem - solteiro,none,1,Desconhecido/nenhum,33,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro novo,2133,none,7-+,4,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,52,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Móveis/equipamentos,2039,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,4,Imóvel,20,bank,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,9,Crítico,Carro novo,2799,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,36,none,Aluguel,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,1289,Minimo,good-to-4,4,Homem - solteiro,Fiador,1,Acordo de poupança/seguro de vida,21,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Eletrodomésticos,1217,Minimo,good-to-4,4,Homem - casado/viúvo,none,3,Imóvel,47,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Crítico,Móveis/equipamentos,2246,Minimo,7-+,3,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,60,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Crítico,Rádio/televisão,385,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,3,Imóvel,58,none,Dono,4,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,24,Atraso passado,Carro novo,1965,none,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,42,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,21,Em dia,Negócios,1572,Alto,7-+,4,Mulher - divorciada/separada/casada,none,4,Imóvel,36,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Carro novo,2718,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,20,none,Aluguel,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Pagamento pelo banco,outro,1358,none,7-+,4,Homem - solteiro,none,3,Carro/outro,40,stores,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,6,Pagamento pelo banco,Carro novo,931,Baixo,Menos de 1,1,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,32,stores,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Carro novo,1442,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,23,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Totalmente pago,Negócios,4241,Minimo,good-to-4,1,Homem - solteiro,none,4,Imóvel,36,none,Dono,3,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,18,Crítico,Carro novo,2775,Minimo,4-to-7,2,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,31,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Atraso passado,Negócios,3863,Minimo,good-to-4,1,Homem - solteiro,none,2,Desconhecido/nenhum,32,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,7,Em dia,Rádio/televisão,2329,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,Fiador,1,Imóvel,45,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,9,Em dia,Móveis/equipamentos,918,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,30,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Pagamento pelo banco,Educação,1837,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,34,bank,for-free,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,36,Em dia,Móveis/equipamentos,3349,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,28,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,10,Em dia,Móveis/equipamentos,1275,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,23,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Pagamento pelo banco,Móveis/equipamentos,2828,Medio,good-to-4,4,Homem - solteiro,none,4,Imóvel,22,stores,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Negócios,4526,Minimo,good-to-4,3,Homem - solteiro,none,2,Imóvel,74,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,36,Em dia,Rádio/televisão,2671,Baixo,good-to-4,4,Mulher - divorciada/separada/casada,Co-requerente,4,Desconhecido/nenhum,50,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Rádio/televisão,2051,Minimo,Menos de 1,4,Homem - solteiro,none,1,Imóvel,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Carro usado,1300,none,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,45,bank,for-free,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Eletrodomésticos,741,Baixo,Desempregado,4,Mulher - divorciada/separada/casada,none,3,Acordo de poupança/seguro de vida,22,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,estavel,10,Em dia,Carro novo,1240,Baixo,7-+,1,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,48,none,for-free,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,21,Em dia,Rádio/televisão,3357,Alto,Menos de 1,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,29,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Pagamento pelo banco,Carro usado,3632,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,Fiador,4,Carro/outro,22,bank,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Ruim,none,18,Atraso passado,Móveis/equipamentos,1808,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,1,Imóvel,22,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,48,Totalmente pago,Negócios,12204,none,good-to-4,2,Homem - solteiro,none,2,Carro/outro,48,bank,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,60,Atraso passado,Rádio/televisão,9157,none,good-to-4,2,Homem - solteiro,none,2,Desconhecido/nenhum,27,none,for-free,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Crítico,Carro novo,3676,Minimo,good-to-4,1,Homem - solteiro,none,3,Imóvel,37,none,Aluguel,3,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,30,Em dia,Móveis/equipamentos,3441,Baixo,good-to-4,2,Mulher - divorciada/separada/casada,Co-requerente,4,Carro/outro,21,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro novo,640,Minimo,good-to-4,4,Homem - divorciado/separado,none,2,Imóvel,49,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,21,Crítico,Negócios,3652,Minimo,4-to-7,2,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,18,Crítico,Carro novo,1530,Minimo,good-to-4,3,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,32,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,48,Em dia,Negócios,3914,none,good-to-4,4,Homem - divorciado/separado,none,2,Imóvel,38,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,1858,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Carro/outro,22,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Rádio/televisão,2600,Minimo,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,65,none,for-free,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Rádio/televisão,1979,none,7-+,4,Homem - solteiro,none,2,Carro/outro,35,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,6,Em dia,Móveis/equipamentos,2116,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,41,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,9,Pagamento pelo banco,Carro novo,1437,Baixo,4-to-7,2,Homem - solteiro,none,3,Desconhecido/nenhum,29,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,42,Crítico,Móveis/equipamentos,4042,Medio,good-to-4,4,Homem - solteiro,none,4,Imóvel,36,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Educação,3832,none,7-+,1,Homem - solteiro,none,4,Imóvel,64,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Rádio/televisão,3660,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Pagamento pelo banco,Móveis/equipamentos,1553,Minimo,good-to-4,4,Homem - solteiro,none,3,Carro/outro,44,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,15,Em dia,Rádio/televisão,1444,none,Menos de 1,4,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,23,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,9,Em dia,Móveis/equipamentos,1980,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,Co-requerente,2,Carro/outro,19,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Carro novo,1355,Minimo,Menos de 1,3,Mulher - divorciada/separada/casada,none,4,Carro/outro,25,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Educação,1393,Minimo,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,47,bank,Dono,3,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,1376,Medio,4-to-7,4,Mulher - divorciada/separada/casada,none,1,Carro/outro,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,60,Atraso passado,Rádio/televisão,15653,Minimo,4-to-7,2,Homem - solteiro,none,4,Carro/outro,21,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,1493,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,3,Carro/outro,34,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,42,Atraso passado,Rádio/televisão,4370,Minimo,4-to-7,3,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,26,bank,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Educação,750,Minimo,Desempregado,4,Mulher - divorciada/separada/casada,none,1,Imóvel,27,none,Dono,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,15,Em dia,Reparos,1308,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,38,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,15,Em dia,Educação,4623,Baixo,good-to-4,3,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,40,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,1851,Minimo,4-to-7,4,Homem - casado/viúvo,Fiador,2,Carro/outro,33,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,18,Crítico,Rádio/televisão,1880,Minimo,4-to-7,4,Homem - casado/viúvo,none,1,Acordo de poupança/seguro de vida,32,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,36,Atraso passado,Negócios,7980,none,Menos de 1,4,Homem - solteiro,none,4,Carro/outro,27,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,30,Totalmente pago,Móveis/equipamentos,4583,Minimo,good-to-4,2,Homem - divorciado/separado,Fiador,2,Imóvel,32,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,12,Em dia,Carro novo,1386,Medio,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,estavel,24,Em dia,Carro novo,947,Minimo,4-to-7,4,Homem - solteiro,none,3,Desconhecido/nenhum,38,bank,for-free,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Educação,684,Minimo,good-to-4,4,Homem - solteiro,none,4,Carro/outro,40,none,Aluguel,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,48,Em dia,Educação,7476,Minimo,4-to-7,4,Homem - solteiro,none,1,Desconhecido/nenhum,50,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Móveis/equipamentos,1922,Minimo,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,37,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Carro novo,2303,Minimo,7-+,4,Homem - solteiro,Co-requerente,1,Imóvel,45,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,36,Atraso passado,Carro novo,8086,Baixo,7-+,2,Homem - solteiro,none,4,Carro/outro,42,none,Dono,4,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Carro usado,2346,Minimo,4-to-7,4,Homem - solteiro,none,3,Carro/outro,35,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,14,Em dia,Carro novo,3973,Minimo,Desempregado,1,Homem - solteiro,none,4,Desconhecido/nenhum,22,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Carro novo,888,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,41,bank,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,48,Em dia,Rádio/televisão,10222,none,4-to-7,4,Homem - solteiro,none,3,Carro/outro,37,stores,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,30,Totalmente pago,Negócios,4221,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,1,Carro/outro,28,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Crítico,Móveis/equipamentos,6361,Minimo,7-+,2,Homem - solteiro,none,1,Desconhecido/nenhum,41,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,12,Em dia,Rádio/televisão,1297,Minimo,good-to-4,3,Homem - casado/viúvo,none,4,Imóvel,23,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Carro novo,900,none,good-to-4,4,Homem - casado/viúvo,none,2,Carro/outro,23,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,21,Em dia,Móveis/equipamentos,2241,Minimo,7-+,4,Homem - solteiro,none,2,Imóvel,50,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,6,Atraso passado,Móveis/equipamentos,1050,Minimo,Desempregado,4,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,35,stores,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,6,Crítico,Educação,1047,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,50,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,outro,6314,Minimo,Desempregado,4,Homem - solteiro,Co-requerente,2,Desconhecido/nenhum,27,bank,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,30,Pagamento pelo banco,Móveis/equipamentos,3496,Alto,good-to-4,4,Homem - solteiro,none,2,Carro/outro,34,stores,Dono,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,48,Pagamento pelo banco,Negócios,3609,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,1,Imóvel,27,stores,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Crítico,Carro novo,4843,Minimo,7-+,3,Homem - solteiro,Co-requerente,4,Acordo de poupança/seguro de vida,43,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,30,Crítico,Rádio/televisão,3017,Minimo,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,47,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Negócios,4139,Baixo,good-to-4,3,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,27,none,Dono,2,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Negócios,5742,Baixo,4-to-7,2,Homem - solteiro,none,2,Carro/outro,31,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,60,Em dia,Carro novo,10366,Minimo,7-+,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,42,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Carro novo,2080,Medio,good-to-4,1,Homem - casado/viúvo,none,2,Carro/outro,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,21,Atraso passado,Negócios,2580,Medio,Menos de 1,4,Homem - solteiro,none,2,Imóvel,41,bank,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,30,Crítico,Rádio/televisão,4530,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,26,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Móveis/equipamentos,5150,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,33,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,72,Em dia,Rádio/televisão,5595,Baixo,good-to-4,2,Homem - casado/viúvo,none,2,Carro/outro,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Rádio/televisão,2384,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,64,bank,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Rádio/televisão,1453,Minimo,Menos de 1,3,Mulher - divorciada/separada/casada,none,1,Imóvel,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Educação,1538,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,2,Desconhecido/nenhum,56,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,2279,none,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,37,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Atraso passado,Rádio/televisão,1478,Minimo,good-to-4,4,Homem - casado/viúvo,none,3,Imóvel,33,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,5103,Minimo,Menos de 1,3,Homem - casado/viúvo,none,3,Desconhecido/nenhum,47,none,for-free,3,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,36,Atraso passado,Negócios,9857,Baixo,4-to-7,1,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,31,none,Dono,2,Residente não qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,60,Em dia,Carro novo,6527,none,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,34,none,for-free,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,10,Crítico,Rádio/televisão,1347,none,4-to-7,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,27,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,36,Atraso passado,Carro novo,2862,Baixo,7-+,4,Homem - solteiro,none,3,Desconhecido/nenhum,30,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Rádio/televisão,2753,Baixo,7-+,3,Homem - solteiro,Co-requerente,4,Carro/outro,35,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Carro novo,3651,Alto,good-to-4,1,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,31,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,15,Crítico,Móveis/equipamentos,975,Minimo,good-to-4,2,Homem - divorciado/separado,none,3,Acordo de poupança/seguro de vida,25,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,15,Em dia,Reparos,2631,Baixo,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Imóvel,25,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Rádio/televisão,2896,Baixo,Menos de 1,2,Homem - solteiro,none,1,Carro/outro,29,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Crítico,Carro novo,4716,none,Menos de 1,1,Homem - solteiro,none,3,Imóvel,44,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,2284,Minimo,4-to-7,4,Homem - solteiro,none,2,Carro/outro,28,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Carro usado,1236,Medio,good-to-4,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,50,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Rádio/televisão,1103,Minimo,4-to-7,4,Homem - solteiro,Fiador,3,Imóvel,29,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,12,Crítico,Carro novo,926,Minimo,Desempregado,1,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,38,none,Dono,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,1800,Minimo,good-to-4,4,Homem - solteiro,none,2,Carro/outro,24,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,15,Em dia,Educação,1905,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,40,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,12,Em dia,Móveis/equipamentos,1123,Medio,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,29,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,48,Crítico,Carro usado,6331,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,46,none,for-free,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,24,Em dia,Rádio/televisão,1377,Baixo,7-+,4,Mulher - divorciada/separada/casada,none,2,Desconhecido/nenhum,47,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,30,Atraso passado,Negócios,2503,Baixo,7-+,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,41,stores,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,27,Em dia,Negócios,2528,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,32,none,Dono,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Carro novo,5324,Medio,7-+,1,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,35,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,48,Em dia,Carro novo,6560,Baixo,4-to-7,3,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,12,Totalmente pago,Móveis/equipamentos,2969,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,3,Acordo de poupança/seguro de vida,25,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Rádio/televisão,1206,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,4,Imóvel,25,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Rádio/televisão,2118,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,37,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,629,Medio,7-+,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,32,bank,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,6,Pagamento pelo banco,Educação,1198,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,35,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,21,Em dia,Carro usado,2476,none,7-+,4,Homem - solteiro,none,4,Imóvel,46,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,9,Crítico,Rádio/televisão,1138,Minimo,good-to-4,4,Homem - solteiro,none,4,Imóvel,25,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,60,Em dia,Carro novo,14027,Minimo,4-to-7,4,Homem - solteiro,none,2,Desconhecido/nenhum,27,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,30,Crítico,Carro usado,7596,none,7-+,1,Homem - solteiro,none,4,Carro/outro,63,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,30,Crítico,Rádio/televisão,3077,none,7-+,3,Homem - solteiro,none,2,Carro/outro,40,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Rádio/televisão,1505,Minimo,good-to-4,4,Homem - solteiro,none,2,Desconhecido/nenhum,32,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,24,Crítico,Rádio/televisão,3148,none,good-to-4,3,Homem - solteiro,none,2,Carro/outro,31,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,20,Totalmente pago,Carro usado,6148,Baixo,7-+,3,Homem - casado/viúvo,none,4,Carro/outro,31,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,estavel,9,Totalmente pago,Rádio/televisão,1337,Minimo,Menos de 1,4,Homem - solteiro,none,2,Carro/outro,34,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,6,Pagamento pelo banco,Educação,433,Alto,Menos de 1,4,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,24,bank,Aluguel,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Carro novo,1228,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Imóvel,24,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Rádio/televisão,790,Medio,good-to-4,4,Mulher - divorciada/separada/casada,none,3,Imóvel,66,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,27,Em dia,Carro novo,2570,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,3,Imóvel,21,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Carro novo,250,Alto,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Imóvel,41,bank,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Rádio/televisão,1316,Medio,good-to-4,2,Homem - casado/viúvo,none,2,Acordo de poupança/seguro de vida,47,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Rádio/televisão,1882,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,25,bank,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,48,Pagamento pelo banco,Negócios,6416,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,3,Desconhecido/nenhum,59,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,24,Crítico,Negócios,1275,Alto,good-to-4,2,Homem - divorciado/separado,none,4,Imóvel,36,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,24,Atraso passado,Rádio/televisão,6403,Minimo,Menos de 1,1,Homem - solteiro,none,2,Carro/outro,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Rádio/televisão,1987,Minimo,good-to-4,2,Homem - solteiro,none,4,Imóvel,21,none,Aluguel,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,8,Em dia,Rádio/televisão,760,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,Fiador,2,Imóvel,44,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro usado,2603,Alto,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,28,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,4,Crítico,Carro novo,3380,Minimo,4-to-7,1,Mulher - divorciada/separada/casada,none,1,Imóvel,37,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,36,Pagamento pelo banco,Eletrodomésticos,3990,none,Menos de 1,3,Mulher - divorciada/separada/casada,none,2,Desconhecido/nenhum,29,bank,Dono,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Carro usado,11560,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,23,none,Aluguel,2,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,18,Em dia,Carro novo,4380,Baixo,good-to-4,3,Homem - solteiro,none,4,Carro/outro,35,none,Dono,1,Residente não qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Carro novo,6761,Minimo,4-to-7,1,Homem - solteiro,none,3,Desconhecido/nenhum,45,none,Dono,2,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,30,Totalmente pago,Negócios,4280,Baixo,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,26,none,Aluguel,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Pagamento pelo banco,Carro novo,2325,Baixo,4-to-7,2,Homem - solteiro,none,3,Carro/outro,32,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,10,Pagamento pelo banco,Rádio/televisão,1048,Minimo,good-to-4,4,Homem - solteiro,none,4,Imóvel,23,stores,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,21,Em dia,Rádio/televisão,3160,none,7-+,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,41,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,24,Pagamento pelo banco,Móveis/equipamentos,2483,Medio,good-to-4,4,Homem - solteiro,none,4,Imóvel,22,stores,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,39,Crítico,Móveis/equipamentos,14179,none,4-to-7,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,30,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,13,Crítico,Negócios,1797,Minimo,Menos de 1,3,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,28,bank,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,15,Em dia,Carro novo,2511,Minimo,Desempregado,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,23,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Carro novo,1274,Minimo,Menos de 1,3,Mulher - divorciada/separada/casada,none,1,Imóvel,37,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,21,Em dia,Carro usado,5248,none,good-to-4,1,Homem - solteiro,none,3,Carro/outro,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Carro usado,3029,Minimo,4-to-7,2,Homem - solteiro,none,2,Carro/outro,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,6,Em dia,Móveis/equipamentos,428,Minimo,7-+,2,Mulher - divorciada/separada/casada,none,1,Acordo de poupança/seguro de vida,49,bank,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Carro novo,976,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,2,Carro/outro,23,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Negócios,841,Baixo,4-to-7,2,Mulher - divorciada/separada/casada,none,4,Imóvel,23,none,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,30,Crítico,Rádio/televisão,5771,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,25,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,12,Atraso passado,Reparos,1555,Alto,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,55,none,for-free,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Carro novo,1285,none,4-to-7,4,Mulher - divorciada/separada/casada,none,4,Desconhecido/nenhum,32,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,6,Crítico,Carro novo,1299,Minimo,good-to-4,1,Homem - solteiro,none,1,Imóvel,74,none,Dono,3,Não qualificado/não residente,2,Sem Telefone,Trabalhador Local
+Ruim,estavel,15,Crítico,Rádio/televisão,1271,none,good-to-4,3,Homem - solteiro,none,4,Desconhecido/nenhum,39,none,for-free,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro novo,1393,Minimo,good-to-4,2,Homem - solteiro,Fiador,2,Imóvel,31,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Crítico,Carro novo,691,Minimo,7-+,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,35,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Carro novo,5045,none,7-+,1,Mulher - divorciada/separada/casada,none,4,Carro/outro,59,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,18,Crítico,Móveis/equipamentos,2124,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Imóvel,24,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Rádio/televisão,2214,Minimo,good-to-4,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,24,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,21,Crítico,Carro novo,12680,none,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,30,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Carro novo,2463,Baixo,4-to-7,4,Homem - casado/viúvo,none,3,Acordo de poupança/seguro de vida,27,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Rádio/televisão,1155,Minimo,7-+,3,Homem - casado/viúvo,Fiador,3,Imóvel,40,bank,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,30,Em dia,Móveis/equipamentos,3108,Minimo,Menos de 1,2,Homem - divorciado/separado,none,4,Acordo de poupança/seguro de vida,31,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Carro usado,2901,none,Menos de 1,1,Mulher - divorciada/separada/casada,none,4,Imóvel,31,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Crítico,Móveis/equipamentos,3617,Minimo,7-+,1,Homem - solteiro,none,4,Carro/outro,28,none,Aluguel,3,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,1655,Minimo,7-+,2,Homem - solteiro,none,4,Imóvel,63,none,Dono,2,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Carro usado,2812,none,7-+,2,Mulher - divorciada/separada/casada,none,4,Imóvel,26,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Crítico,Educação,8065,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Desconhecido/nenhum,25,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,21,Crítico,Carro usado,3275,Minimo,7-+,1,Homem - solteiro,none,4,Carro/outro,36,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,2223,Baixo,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,52,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,12,Crítico,Carro novo,1480,Medio,Desempregado,2,Homem - solteiro,none,4,Desconhecido/nenhum,66,bank,for-free,3,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Carro novo,1371,none,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Imóvel,25,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Carro novo,3535,Minimo,4-to-7,4,Homem - solteiro,none,4,Carro/outro,37,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,18,Em dia,Rádio/televisão,3509,Minimo,4-to-7,4,Mulher - divorciada/separada/casada,Fiador,1,Imóvel,25,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Carro usado,5711,Alto,7-+,4,Homem - solteiro,none,2,Carro/outro,38,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Reparos,3872,Minimo,Desempregado,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,67,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,39,Crítico,Rádio/televisão,4933,Minimo,4-to-7,2,Homem - solteiro,Fiador,2,Imóvel,25,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Carro novo,1940,Alto,7-+,4,Homem - solteiro,none,4,Imóvel,60,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,12,Totalmente pago,Requalificação,1410,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,31,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,12,Em dia,Carro novo,836,Baixo,Menos de 1,4,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,23,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,20,Em dia,Carro usado,6468,none,Desempregado,1,Homem - divorciado/separado,none,4,Imóvel,60,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,18,Em dia,Negócios,1941,Alto,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,35,none,Dono,1,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,22,Em dia,Rádio/televisão,2675,Medio,7-+,3,Homem - solteiro,none,4,Carro/outro,40,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,48,Crítico,Carro usado,2751,none,7-+,4,Homem - solteiro,none,3,Carro/outro,38,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,48,Atraso passado,Educação,6224,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,50,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,40,Crítico,Educação,5998,Minimo,good-to-4,4,Homem - solteiro,none,3,Desconhecido/nenhum,27,bank,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,21,Em dia,Negócios,1188,Minimo,7-+,2,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,39,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro usado,6313,none,7-+,3,Homem - solteiro,none,4,Carro/outro,41,none,Dono,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Móveis/equipamentos,1221,none,good-to-4,1,Homem - casado/viúvo,none,2,Acordo de poupança/seguro de vida,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,24,Em dia,Móveis/equipamentos,2892,Minimo,7-+,3,Homem - divorciado/separado,none,4,Desconhecido/nenhum,51,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Móveis/equipamentos,3062,Medio,7-+,4,Homem - solteiro,none,3,Desconhecido/nenhum,32,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Móveis/equipamentos,2301,Baixo,Menos de 1,2,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,22,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Carro usado,7511,none,7-+,1,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,51,none,for-free,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Móveis/equipamentos,1258,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,22,none,Aluguel,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Atraso passado,Carro novo,717,none,7-+,4,Homem - casado/viúvo,none,4,Carro/outro,54,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Carro novo,1549,none,Menos de 1,4,Homem - solteiro,none,2,Imóvel,35,none,Dono,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Educação,1597,Minimo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,54,none,for-free,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Crítico,Rádio/televisão,1795,Minimo,7-+,3,Mulher - divorciada/separada/casada,Fiador,4,Imóvel,48,bank,Aluguel,2,Residente não qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,20,Crítico,Móveis/equipamentos,4272,Minimo,7-+,1,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,24,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,976,none,7-+,4,Homem - solteiro,none,4,Carro/outro,35,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Carro novo,7472,none,Desempregado,1,Mulher - divorciada/separada/casada,none,2,Imóvel,24,none,Aluguel,1,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Carro novo,9271,Minimo,4-to-7,2,Homem - solteiro,none,1,Carro/outro,24,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,6,Em dia,Rádio/televisão,590,Minimo,Menos de 1,3,Homem - casado/viúvo,none,3,Imóvel,26,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,12,Crítico,Rádio/televisão,930,none,7-+,4,Homem - solteiro,none,4,Imóvel,65,none,Dono,4,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,42,Pagamento pelo banco,Carro usado,9283,Minimo,Desempregado,1,Homem - solteiro,none,2,Desconhecido/nenhum,55,bank,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,15,Totalmente pago,Carro novo,1778,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,1,Imóvel,26,none,Aluguel,2,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,8,Em dia,Negócios,907,Minimo,Menos de 1,3,Homem - casado/viúvo,none,2,Imóvel,26,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,6,Em dia,Rádio/televisão,484,Minimo,4-to-7,3,Homem - casado/viúvo,Fiador,3,Imóvel,28,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Crítico,Carro usado,9629,Minimo,4-to-7,4,Homem - solteiro,none,4,Carro/outro,24,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,48,Em dia,Eletrodomésticos,3051,Minimo,good-to-4,3,Homem - solteiro,none,4,Carro/outro,54,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,48,Em dia,Carro novo,3931,Minimo,4-to-7,4,Homem - solteiro,none,4,Desconhecido/nenhum,46,none,for-free,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,36,Atraso passado,Carro novo,7432,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,54,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Em dia,Eletrodomésticos,1338,Medio,good-to-4,1,Homem - divorciado/separado,none,4,Imóvel,62,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Rádio/televisão,1554,Minimo,4-to-7,1,Mulher - divorciada/separada/casada,none,2,Carro/outro,24,none,Aluguel,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,36,Em dia,outro,15857,Minimo,Desempregado,2,Homem - divorciado/separado,Co-requerente,3,Carro/outro,43,none,Dono,1,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Rádio/televisão,1345,Minimo,good-to-4,4,Homem - casado/viúvo,none,3,Imóvel,26,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro novo,1101,Minimo,good-to-4,3,Homem - casado/viúvo,none,2,Imóvel,27,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,12,Em dia,Rádio/televisão,3016,Minimo,good-to-4,3,Homem - casado/viúvo,none,1,Carro/outro,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Móveis/equipamentos,2712,Minimo,7-+,2,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,41,bank,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,8,Crítico,Carro novo,731,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,47,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Móveis/equipamentos,3780,Minimo,Menos de 1,3,Homem - divorciado/separado,none,2,Carro/outro,35,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,21,Crítico,Carro novo,1602,Minimo,7-+,4,Homem - casado/viúvo,none,3,Carro/outro,30,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,18,Crítico,Carro novo,3966,Minimo,7-+,1,Mulher - divorciada/separada/casada,none,4,Imóvel,33,bank,Aluguel,3,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,18,Totalmente pago,Negócios,4165,Minimo,good-to-4,2,Homem - solteiro,none,2,Carro/outro,36,stores,Dono,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Carro usado,8335,none,7-+,3,Homem - solteiro,none,4,Desconhecido/nenhum,47,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,48,Atraso passado,Negócios,6681,none,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,38,none,for-free,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Atraso passado,Negócios,2375,Medio,good-to-4,4,Homem - solteiro,none,2,Carro/outro,44,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Carro novo,1216,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,3,Carro/outro,23,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,45,Totalmente pago,Negócios,11816,Minimo,7-+,2,Homem - solteiro,none,4,Carro/outro,29,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Rádio/televisão,5084,none,7-+,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,42,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,estavel,15,Em dia,Rádio/televisão,2327,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,3,Imóvel,25,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Totalmente pago,Carro novo,1082,Minimo,good-to-4,4,Homem - solteiro,none,4,Carro/outro,48,bank,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,886,none,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,21,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,4,Em dia,Móveis/equipamentos,601,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,3,Imóvel,23,none,Aluguel,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Crítico,Carro usado,2957,Minimo,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,63,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Rádio/televisão,2611,Minimo,7-+,4,Homem - casado/viúvo,Co-requerente,3,Imóvel,46,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Móveis/equipamentos,5179,Minimo,4-to-7,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,29,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,21,Atraso passado,Carro usado,2993,Minimo,good-to-4,3,Homem - solteiro,none,2,Imóvel,28,stores,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,18,Em dia,Reparos,1943,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Imóvel,23,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Pagamento pelo banco,Negócios,1559,Minimo,4-to-7,4,Homem - solteiro,none,4,Carro/outro,50,bank,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,18,Em dia,Móveis/equipamentos,3422,Minimo,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,47,bank,Dono,3,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,21,Em dia,Móveis/equipamentos,3976,none,4-to-7,2,Homem - solteiro,none,3,Carro/outro,35,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,18,Em dia,Carro novo,6761,none,good-to-4,2,Homem - solteiro,none,4,Carro/outro,68,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro novo,1249,Minimo,Menos de 1,4,Homem - casado/viúvo,none,2,Imóvel,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,9,Em dia,Rádio/televisão,1364,Minimo,4-to-7,3,Homem - solteiro,none,4,Imóvel,59,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Rádio/televisão,709,Minimo,7-+,4,Homem - solteiro,none,4,Imóvel,57,stores,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,20,Crítico,Carro novo,2235,Minimo,good-to-4,4,Homem - casado/viúvo,Fiador,2,Acordo de poupança/seguro de vida,33,bank,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,24,Crítico,Carro usado,4042,none,4-to-7,3,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,43,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Rádio/televisão,1471,Minimo,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,35,none,for-free,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,18,Pagamento pelo banco,Carro novo,1442,Minimo,4-to-7,4,Homem - solteiro,none,4,Desconhecido/nenhum,32,none,for-free,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Atraso passado,Carro novo,10875,Minimo,7-+,2,Homem - solteiro,none,2,Carro/outro,45,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro novo,1474,Baixo,Menos de 1,4,Homem - casado/viúvo,none,3,Imóvel,33,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Requalificação,894,none,4-to-7,4,Mulher - divorciada/separada/casada,none,3,Acordo de poupança/seguro de vida,40,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Móveis/equipamentos,3343,Minimo,good-to-4,4,Homem - solteiro,none,2,Desconhecido/nenhum,28,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,15,Em dia,Carro novo,3959,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,29,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,9,Em dia,Carro novo,3577,Baixo,good-to-4,1,Homem - solteiro,Fiador,2,Imóvel,26,none,Aluguel,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Local
+Bom,none,24,Crítico,Carro usado,5804,Alto,good-to-4,4,Homem - solteiro,none,2,Imóvel,27,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,18,Atraso passado,Negócios,2169,Minimo,good-to-4,4,Homem - casado/viúvo,none,2,Carro/outro,28,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Rádio/televisão,2439,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Imóvel,35,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,27,Crítico,Móveis/equipamentos,4526,Alto,Menos de 1,4,Homem - solteiro,none,2,Imóvel,32,stores,Dono,2,Residente não qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,10,Em dia,Móveis/equipamentos,2210,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,25,bank,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Móveis/equipamentos,2221,Medio,good-to-4,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,20,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,18,Em dia,Rádio/televisão,2389,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Carro/outro,27,stores,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Móveis/equipamentos,3331,Minimo,7-+,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,42,stores,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Negócios,7409,none,7-+,3,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,37,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,652,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,24,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Atraso passado,Móveis/equipamentos,7678,Medio,4-to-7,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,40,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,6,Crítico,Carro novo,1343,Minimo,7-+,1,Homem - solteiro,none,4,Imóvel,46,none,Dono,2,Funcionário qualificado,2,Sem Telefone,Trabalhador Local
+Bom,negativo,24,Crítico,Negócios,1382,Baixo,4-to-7,4,Homem - solteiro,none,1,Imóvel,26,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Eletrodomésticos,874,none,Menos de 1,4,Mulher - divorciada/separada/casada,none,1,Imóvel,24,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Móveis/equipamentos,3590,Minimo,good-to-4,2,Homem - solteiro,Co-requerente,2,Acordo de poupança/seguro de vida,29,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,11,Crítico,Carro novo,1322,Alto,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,40,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,18,Pagamento pelo banco,Rádio/televisão,1940,Minimo,Menos de 1,3,Homem - solteiro,Co-requerente,4,Desconhecido/nenhum,36,bank,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Em dia,Rádio/televisão,3595,Minimo,7-+,4,Homem - solteiro,none,2,Carro/outro,28,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,9,Em dia,Carro novo,1422,Minimo,Menos de 1,3,Homem - solteiro,none,2,Desconhecido/nenhum,27,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,30,Crítico,Rádio/televisão,6742,none,4-to-7,2,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,36,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro usado,7814,Minimo,4-to-7,3,Homem - solteiro,none,3,Carro/outro,38,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro usado,9277,none,good-to-4,2,Homem - divorciado/separado,none,4,Desconhecido/nenhum,48,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,30,Crítico,Carro novo,2181,none,7-+,4,Homem - solteiro,none,4,Imóvel,36,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,1098,Minimo,Desempregado,4,Mulher - divorciada/separada/casada,none,4,Carro/outro,65,none,Dono,2,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Móveis/equipamentos,4057,Minimo,4-to-7,3,Homem - divorciado/separado,none,3,Carro/outro,43,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Em dia,Educação,795,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,53,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Crítico,Negócios,2825,none,4-to-7,4,Homem - solteiro,none,3,Desconhecido/nenhum,34,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,48,Em dia,Negócios,15672,Minimo,good-to-4,2,Homem - solteiro,none,2,Carro/outro,23,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Carro novo,6614,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,34,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,28,Pagamento pelo banco,Carro usado,7824,none,Menos de 1,3,Homem - solteiro,Fiador,4,Imóvel,40,bank,Aluguel,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,27,Crítico,Negócios,2442,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,43,stores,Dono,4,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,15,Crítico,Rádio/televisão,1829,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,46,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Crítico,Carro novo,2171,Minimo,good-to-4,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,38,bank,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Local
+Bom,Baixo,36,Crítico,Carro usado,5800,Minimo,good-to-4,3,Homem - solteiro,none,4,Carro/outro,34,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Rádio/televisão,1169,none,good-to-4,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,29,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Atraso passado,Carro usado,8947,none,4-to-7,3,Homem - solteiro,none,2,Carro/outro,31,stores,Dono,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,21,Em dia,Rádio/televisão,2606,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,28,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Móveis/equipamentos,1592,Alto,4-to-7,3,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,35,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Local
+Bom,none,15,Em dia,Móveis/equipamentos,2186,none,4-to-7,1,Mulher - divorciada/separada/casada,none,4,Imóvel,33,bank,Aluguel,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,18,Em dia,Móveis/equipamentos,4153,Minimo,good-to-4,2,Homem - solteiro,Co-requerente,3,Carro/outro,42,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,16,Crítico,Carro novo,2625,Minimo,7-+,2,Homem - solteiro,Fiador,4,Acordo de poupança/seguro de vida,43,bank,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,20,Crítico,Carro novo,3485,none,Menos de 1,2,Homem - divorciado/separado,none,4,Imóvel,44,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,36,Crítico,Carro usado,10477,none,7-+,2,Homem - solteiro,none,4,Desconhecido/nenhum,42,none,for-free,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Rádio/televisão,1386,none,good-to-4,4,Homem - casado/viúvo,none,2,Imóvel,40,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Rádio/televisão,1278,Minimo,7-+,4,Homem - solteiro,none,1,Imóvel,36,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Rádio/televisão,1107,Minimo,good-to-4,2,Homem - solteiro,none,2,Imóvel,20,none,Aluguel,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,21,Em dia,Carro novo,3763,none,4-to-7,2,Homem - solteiro,Co-requerente,2,Imóvel,24,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Local
+Bom,Baixo,36,Em dia,Educação,3711,none,good-to-4,2,Homem - casado/viúvo,none,2,Carro/outro,27,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Atraso passado,Carro usado,3594,Minimo,Menos de 1,1,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,46,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Em dia,Carro novo,3195,none,good-to-4,1,Mulher - divorciada/separada/casada,none,2,Imóvel,33,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,36,Atraso passado,Rádio/televisão,4454,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,4,Imóvel,34,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,24,Crítico,Móveis/equipamentos,4736,Minimo,Menos de 1,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,25,bank,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,30,Em dia,Rádio/televisão,2991,none,7-+,2,Mulher - divorciada/separada/casada,none,4,Carro/outro,25,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,11,Em dia,Negócios,2142,Alto,7-+,1,Homem - divorciado/separado,none,2,Imóvel,28,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Pagamento pelo banco,Negócios,3161,Minimo,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,31,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,48,Totalmente pago,outro,18424,Minimo,good-to-4,1,Mulher - divorciada/separada/casada,none,2,Acordo de poupança/seguro de vida,32,bank,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Local
+Bom,none,10,Em dia,Carro usado,2848,Baixo,good-to-4,1,Homem - solteiro,Co-requerente,2,Imóvel,32,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,6,Em dia,Carro novo,14896,Minimo,7-+,1,Homem - solteiro,none,4,Desconhecido/nenhum,68,bank,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Móveis/equipamentos,2359,Baixo,Desempregado,1,Homem - divorciado/separado,none,1,Acordo de poupança/seguro de vida,33,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Em dia,Móveis/equipamentos,3345,Minimo,7-+,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,39,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,18,Crítico,Móveis/equipamentos,1817,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Desconhecido/nenhum,28,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,48,Atraso passado,Rádio/televisão,12749,Medio,4-to-7,4,Homem - solteiro,none,1,Carro/outro,37,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,9,Em dia,Rádio/televisão,1366,Minimo,Menos de 1,3,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,22,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,12,Em dia,Carro novo,2002,Minimo,4-to-7,3,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,30,none,Aluguel,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,24,Pagamento pelo banco,Móveis/equipamentos,6872,Minimo,Menos de 1,2,Homem - divorciado/separado,none,1,Acordo de poupança/seguro de vida,55,bank,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,12,Pagamento pelo banco,Carro novo,697,Minimo,Menos de 1,4,Homem - solteiro,none,2,Carro/outro,46,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,18,Crítico,Móveis/equipamentos,1049,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,21,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,48,Em dia,Carro usado,10297,Minimo,4-to-7,4,Homem - solteiro,none,4,Desconhecido/nenhum,39,stores,for-free,3,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,30,Em dia,Rádio/televisão,1867,none,7-+,4,Homem - solteiro,none,4,Carro/outro,58,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Atraso passado,Carro novo,1344,Minimo,good-to-4,4,Homem - solteiro,none,2,Imóvel,43,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Móveis/equipamentos,1747,Minimo,Menos de 1,4,Homem - solteiro,Co-requerente,1,Acordo de poupança/seguro de vida,24,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Local
+Ruim,Baixo,9,Em dia,Rádio/televisão,1670,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,22,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,9,Crítico,Carro novo,1224,Minimo,good-to-4,3,Homem - solteiro,none,1,Imóvel,30,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Rádio/televisão,522,Medio,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,42,none,Dono,2,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Rádio/televisão,1498,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,1,Carro/outro,23,bank,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,30,Atraso passado,Rádio/televisão,1919,Baixo,Menos de 1,4,Homem - solteiro,none,3,Desconhecido/nenhum,30,stores,Dono,2,Alta qualificação,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,estavel,9,Em dia,Rádio/televisão,745,Minimo,good-to-4,3,Mulher - divorciada/separada/casada,none,2,Imóvel,28,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,6,Em dia,Rádio/televisão,2063,Minimo,Menos de 1,4,Homem - casado/viúvo,none,3,Carro/outro,30,none,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,60,Em dia,Educação,6288,Minimo,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,42,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Carro usado,6842,none,good-to-4,2,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,46,none,Dono,2,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro novo,3527,none,Menos de 1,2,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,45,none,Dono,1,Alta qualificação,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,10,Em dia,Carro novo,1546,Minimo,good-to-4,3,Homem - solteiro,none,2,Imóvel,31,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Local
+Bom,none,24,Em dia,Móveis/equipamentos,929,none,4-to-7,4,Homem - solteiro,none,2,Carro/outro,31,stores,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,4,Crítico,Carro novo,1455,Minimo,4-to-7,2,Homem - solteiro,none,1,Imóvel,42,none,Dono,3,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,15,Em dia,Móveis/equipamentos,1845,Minimo,Menos de 1,4,Mulher - divorciada/separada/casada,Fiador,1,Acordo de poupança/seguro de vida,46,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,48,Totalmente pago,Carro novo,8358,Medio,Menos de 1,1,Mulher - divorciada/separada/casada,none,1,Carro/outro,30,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Pagamento pelo banco,Móveis/equipamentos,3349,Medio,Menos de 1,4,Homem - solteiro,none,4,Desconhecido/nenhum,30,none,for-free,1,Funcionário qualificado,2,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro novo,2859,none,Desempregado,4,Homem - solteiro,none,4,Desconhecido/nenhum,38,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,none,18,Em dia,Móveis/equipamentos,1533,Minimo,Menos de 1,4,Homem - casado/viúvo,Co-requerente,1,Acordo de poupança/seguro de vida,43,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,24,Em dia,Rádio/televisão,3621,Baixo,7-+,2,Homem - solteiro,none,4,Carro/outro,31,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Crítico,Negócios,3590,Minimo,Desempregado,3,Homem - casado/viúvo,none,3,Carro/outro,40,none,Dono,3,Não qualificado/não residente,2,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,36,Atraso passado,Negócios,2145,Minimo,4-to-7,2,Homem - solteiro,none,1,Carro/outro,24,none,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,Baixo,24,Em dia,Carro usado,4113,Medio,Menos de 1,3,Mulher - divorciada/separada/casada,none,4,Carro/outro,28,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,36,Em dia,Móveis/equipamentos,10974,Minimo,Desempregado,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,26,none,Dono,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,12,Em dia,Carro novo,1893,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,Fiador,4,Acordo de poupança/seguro de vida,29,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,24,Crítico,Rádio/televisão,1231,Alto,7-+,4,Mulher - divorciada/separada/casada,none,4,Acordo de poupança/seguro de vida,57,none,Aluguel,2,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,30,Crítico,Rádio/televisão,3656,none,7-+,4,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,49,stores,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,9,Crítico,Rádio/televisão,1154,Minimo,7-+,2,Homem - solteiro,none,4,Imóvel,37,none,Dono,3,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,28,Em dia,Carro novo,4006,Minimo,good-to-4,3,Homem - solteiro,none,2,Carro/outro,45,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,24,Em dia,Móveis/equipamentos,3069,Baixo,7-+,4,Homem - solteiro,none,4,Desconhecido/nenhum,30,none,for-free,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,6,Crítico,Rádio/televisão,1740,Minimo,7-+,2,Homem - casado/viúvo,none,2,Imóvel,30,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,21,Atraso passado,Carro novo,2353,Minimo,good-to-4,1,Homem - divorciado/separado,none,4,Acordo de poupança/seguro de vida,47,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Carro novo,3556,none,good-to-4,3,Homem - solteiro,none,2,Desconhecido/nenhum,29,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,24,Em dia,Rádio/televisão,2397,Medio,7-+,3,Homem - solteiro,none,2,Carro/outro,35,bank,Dono,2,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,6,Em dia,Reparos,454,Minimo,Menos de 1,3,Homem - casado/viúvo,none,1,Acordo de poupança/seguro de vida,22,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,30,Em dia,Rádio/televisão,1715,none,good-to-4,4,Mulher - divorciada/separada/casada,none,1,Carro/outro,26,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,27,Crítico,Rádio/televisão,2520,Medio,good-to-4,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,23,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Em dia,Rádio/televisão,3568,Minimo,7-+,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,54,bank,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,42,Em dia,Rádio/televisão,7166,none,4-to-7,2,Homem - casado/viúvo,none,4,Acordo de poupança/seguro de vida,29,none,Aluguel,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,negativo,11,Crítico,Carro novo,3939,Minimo,good-to-4,1,Homem - solteiro,none,2,Imóvel,40,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,15,Em dia,Reparos,1514,Baixo,good-to-4,4,Homem - solteiro,Fiador,2,Imóvel,22,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Em dia,Carro novo,7393,Minimo,good-to-4,1,Homem - solteiro,none,4,Acordo de poupança/seguro de vida,43,none,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,24,Pagamento pelo banco,Carro novo,1193,Minimo,Desempregado,1,Mulher - divorciada/separada/casada,Co-requerente,4,Desconhecido/nenhum,29,none,Aluguel,2,Não qualificado/não residente,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,60,Em dia,Negócios,7297,Minimo,7-+,4,Homem - solteiro,Co-requerente,4,Desconhecido/nenhum,36,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,30,Crítico,Rádio/televisão,2831,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,2,Carro/outro,33,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,24,Em dia,Rádio/televisão,1258,Medio,good-to-4,3,Mulher - divorciada/separada/casada,none,3,Carro/outro,57,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,6,Em dia,Rádio/televisão,753,Minimo,good-to-4,2,Mulher - divorciada/separada/casada,Fiador,3,Imóvel,64,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,Baixo,18,Atraso passado,Negócios,2427,none,7-+,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,42,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,24,Atraso passado,Carro novo,2538,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,47,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,15,Pagamento pelo banco,Carro novo,1264,Baixo,good-to-4,2,Homem - casado/viúvo,none,2,Acordo de poupança/seguro de vida,25,none,Aluguel,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,Baixo,30,Crítico,Móveis/equipamentos,8386,Minimo,4-to-7,2,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,49,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,none,48,Em dia,Negócios,4844,Minimo,Desempregado,3,Homem - solteiro,none,2,Carro/outro,33,bank,Aluguel,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,estavel,21,Em dia,Carro novo,2923,Baixo,good-to-4,1,Mulher - divorciada/separada/casada,none,1,Carro/outro,28,bank,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Ruim,negativo,36,Em dia,Carro usado,8229,Minimo,good-to-4,2,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,26,none,Dono,1,Funcionário qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,24,Crítico,Móveis/equipamentos,2028,Minimo,4-to-7,2,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,30,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,15,Crítico,Móveis/equipamentos,1433,Minimo,good-to-4,4,Mulher - divorciada/separada/casada,none,3,Acordo de poupança/seguro de vida,25,none,Aluguel,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,estavel,42,Totalmente pago,Negócios,6289,Minimo,Menos de 1,2,Homem - divorciado/separado,none,1,Acordo de poupança/seguro de vida,33,none,Dono,2,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,13,Em dia,Rádio/televisão,1409,Baixo,Desempregado,2,Mulher - divorciada/separada/casada,none,4,Imóvel,64,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,24,Em dia,Carro usado,6579,Minimo,Desempregado,4,Homem - solteiro,none,2,Desconhecido/nenhum,29,none,for-free,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,24,Crítico,Rádio/televisão,1743,Minimo,7-+,4,Homem - solteiro,none,2,Acordo de poupança/seguro de vida,48,none,Dono,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,12,Crítico,Educação,3565,none,Menos de 1,2,Homem - solteiro,none,1,Acordo de poupança/seguro de vida,37,none,Dono,2,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,none,15,Pagamento pelo banco,Rádio/televisão,1569,Baixo,7-+,4,Homem - solteiro,none,4,Carro/outro,34,bank,Dono,1,Residente não qualificado,2,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,18,Em dia,Rádio/televisão,1936,none,4-to-7,2,Homem - casado/viúvo,none,4,Carro/outro,23,none,Aluguel,2,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,36,Em dia,Móveis/equipamentos,3959,Minimo,Desempregado,4,Homem - solteiro,none,3,Acordo de poupança/seguro de vida,30,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Carro novo,2390,none,7-+,4,Homem - solteiro,none,3,Carro/outro,50,none,Dono,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Móveis/equipamentos,1736,Minimo,4-to-7,3,Mulher - divorciada/separada/casada,none,4,Imóvel,31,none,Dono,1,Residente não qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Bom,negativo,30,Em dia,Carro usado,3857,Minimo,good-to-4,4,Homem - divorciado/separado,none,4,Acordo de poupança/seguro de vida,40,none,Dono,1,Alta qualificação,1,telefone registrado,Trabalhador Estrangeiro
+Bom,none,12,Em dia,Rádio/televisão,804,Minimo,7-+,4,Homem - solteiro,none,4,Carro/outro,38,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
+Ruim,negativo,45,Em dia,Rádio/televisão,1845,Minimo,good-to-4,4,Homem - solteiro,none,4,Desconhecido/nenhum,23,none,for-free,1,Funcionário qualificado,1,telefone registrado,Trabalhador Estrangeiro
+Bom,Baixo,45,Crítico,Carro usado,4576,Baixo,Desempregado,3,Homem - solteiro,none,4,Carro/outro,27,none,Dono,1,Funcionário qualificado,1,Sem Telefone,Trabalhador Estrangeiro
